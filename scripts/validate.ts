@@ -31,12 +31,13 @@ export async function validateCatalog(root) {
     assert(app.starsUpdatedAt == null || date(app.starsUpdatedAt), `${id}: invalid starsUpdatedAt`);
     assert(Array.isArray(app.previews) && app.previews.length, `${id}: preview required`);
     for (const name of app.previews) {
-      assert(typeof name === 'string' && /^preview\d*\.(png|jpe?g|webp)$/i.test(name), `${id}: invalid preview filename`);
+      assert(typeof name === 'string' && /^preview\d*\.(png|jpe?g|webp|avif)$/i.test(name), `${id}: invalid preview filename`);
       const path = await realpath(join(folder, name));
       assert.equal(dirname(path), await realpath(folder), `${id}: preview outside app folder`);
       const data = await readFile(path);
       const valid = /\.png$/i.test(name) ? data.subarray(0, 8).equals(Buffer.from('89504e470d0a1a0a', 'hex'))
         : /\.jpe?g$/i.test(name) ? data[0] === 255 && data[1] === 216
+        : /\.avif$/i.test(name) ? data.length >= 16 && data.readUInt32BE(0) >= 16 && data.readUInt32BE(0) <= data.length && data.toString('ascii', 4, 8) === 'ftyp' && ['avif', 'avis'].includes(data.toString('ascii', 8, 12))
         : data.toString('ascii', 0, 4) === 'RIFF' && data.toString('ascii', 8, 12) === 'WEBP';
       assert(valid, `${id}: incorrect image format for ${name}`);
     }

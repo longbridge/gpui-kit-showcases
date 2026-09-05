@@ -1,6 +1,5 @@
 [
   "longbridge-pro",
-  "longbridge-lite",
   "openlogi",
   "zedis",
   "tty7",
@@ -11,6 +10,7 @@
   "scope",
   "reviu",
   "cadence",
+  "longbridge-lite",
   "orrery",
   "zenclash",
   "pawse",

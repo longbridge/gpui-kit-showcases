@@ -13,7 +13,7 @@ Provide the required `author`, English-only `description`, and `website`/`source
 ## Screenshots
 
 - **Capture the complete application window.** Preserve the title bar or custom controls, all four corners, all four edges, navigation and main content. Missing even one corner or edge is unacceptable. Prefer window capture over a manually dragged region.
-- **Keep the image clear.** Use the original resolution without stretching, upscaling or heavy compression. Text and interface details must be legible at full size. Use PNG, JPEG or WebP with the correct extension.
+- **Keep the image clear.** Use the original resolution without stretching, upscaling or heavy compression. Text and interface details must be legible at full size. Use PNG, JPEG, WebP or AVIF with the correct extension.
 - **Keep the presentation clean and tidy.** Arrange representative content. Remove unrelated windows, cluttered backgrounds, context menus, tooltips, notifications and overlays obscuring the app. If a dialog is the feature being shown, retain its full parent window and explain the use case in the PR.
 - **Show the real product.** Screenshots must match the current implementation. No decorative device frames, marketing overlays or collages.
 - **Choose the cover carefully.** The first filename in `previews` is the cover. Additional screenshots should show distinct features. All must retain the complete window; the website displays images without cropping.
@@ -45,7 +45,7 @@ Add `apps/<app-id>/README.md` to give the app a detail page in App Stories. It m
 
 Only link to the exact official `website` and GitHub `source` URLs from the manifest. Other destinations, installation/download URLs, installation instructions, Bash/shell scripts, commands and code blocks are forbidden. Violations must be resolved before merging.
 
-Product images and videos are allowed through Markdown images or HTML `img`, `video` and `source` tags. Commit media directly in the app folder and reference local filenames only; remote media, `data:` URLs, absolute paths and `../` are forbidden. Supported images: PNG, JPEG, WebP; videos: MP4, WebM. Use `controls` on videos. Event handlers, scripts, styles and other raw HTML are forbidden.
+Product images and videos are allowed through Markdown images or HTML `img`, `video` and `source` tags. Commit media directly in the app folder and reference local filenames only; remote media, `data:` URLs, absolute paths and `../` are forbidden. Supported images: PNG, JPEG, WebP, AVIF; videos: MP4, WebM. Use `controls` on videos. Event handlers, scripts, styles and other raw HTML are forbidden.
 
 CI checks file size, links (including references and encoded URLs), media paths, markup and common command patterns. Maintainers additionally review product accuracy, screenshot completeness, and whether the README is purely descriptive.
 

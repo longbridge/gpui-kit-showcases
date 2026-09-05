@@ -4,7 +4,7 @@ import he from 'he';
 import { parseFragment, serialize } from 'parse5';
 
 export const MAX_README_BYTES = 10 * 1024;
-const mediaPattern = /^[a-z0-9]+(?:[._-][a-z0-9]+)*\.(png|jpe?g|webp|mp4|webm)$/;
+const mediaPattern = /^[a-z0-9]+(?:[._-][a-z0-9]+)*\.(png|jpe?g|webp|avif|mp4|webm)$/;
 const attributes = {
   img: new Set(['src', 'alt', 'width', 'height', 'loading']),
   video: new Set(['src', 'poster', 'controls', 'muted', 'loop', 'preload', 'width', 'height', 'playsinline']),
@@ -53,7 +53,7 @@ export function validateReadme(markdown, app) {
   const media = new Set();
   function checkMedia(name, kind = 'image') {
     if (!mediaPattern.test(name)) fail(`media must use a local filename: ${name}`);
-    if (kind === 'image' && !/\.(png|jpe?g|webp)$/.test(name)) fail(`image expected: ${name}`);
+    if (kind === 'image' && !/\.(png|jpe?g|webp|avif)$/.test(name)) fail(`image expected: ${name}`);
     if (kind === 'video' && !/\.(mp4|webm)$/.test(name)) fail(`video expected: ${name}`);
     media.add(name);
   }

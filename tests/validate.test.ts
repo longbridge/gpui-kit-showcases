@@ -21,6 +21,14 @@ async function fixture(t, overrides = {}, id = 'my-app') {
 test('accepts lowercase IDs, author, website, and local preview files', async t => {
   assert.equal(await validateCatalog(await fixture(t)), 1);
 });
+test('accepts AVIF previews and rejects other formats with an AVIF extension', async t => {
+  const root = await fixture(t, { previews: ['preview0.avif'] });
+  const path = join(root, 'apps/my-app/preview0.avif');
+  await writeFile(path, Buffer.from('0000001c6674797061766966000000006d696631617669666d696166', 'hex'));
+  assert.equal(await validateCatalog(root), 1);
+  await writeFile(path, Buffer.from('89504e470d0a1a0a', 'hex'));
+  await assert.rejects(validateCatalog(root), /image format/);
+});
 test('keeps Featured exclusively in a valid root list', async t => {
   await assert.rejects(validateCatalog(await fixture(t, { featured: false })), /featured/);
   const root = await fixture(t);
