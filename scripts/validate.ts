@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import twitterText from 'twitter-text';
-import { validateReadme } from './readme.mjs';
+import { validateReadme } from './readme.ts';
 import { readdir, readFile, realpath } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';

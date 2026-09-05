@@ -3,7 +3,7 @@ import test from 'node:test';
 import { mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { validateCatalog } from '../scripts/validate.mjs';
+import { validateCatalog } from '../scripts/validate.ts';
 
 async function fixture(t, overrides = {}, id = 'my-app') {
   const root = await mkdtemp(join(tmpdir(), 'catalog-test-'));

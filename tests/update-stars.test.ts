@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { refreshStars } from '../scripts/update-stars.mjs';
+import { refreshStars } from '../scripts/update-stars.ts';
 
 test('fetches GitHub counts including zero and timestamps successful updates', async () => {
   const apps = [{ id: 'one', source: 'https://github.com/owner/project', stars: 20 }];

@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "validate": "bun scripts/validate.mjs",
-    "update-stars": "bun scripts/update-stars.mjs",
+    "validate": "bun scripts/validate.ts",
+    "update-stars": "bun scripts/update-stars.ts",
     "test": "bun test"
   },
   "dependencies": {

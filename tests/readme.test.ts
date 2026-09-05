@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { validateReadme } from '../scripts/readme.mjs';
+import { validateReadme } from '../scripts/readme.ts';
 const app = { id: 'my-app', website: 'https://my-app.com', source: 'https://github.com/author/my-app' };
 test('allows product prose and exact official website/repository links', () => {
   validateReadme('# My App\n\nA fast editor.\n\n[Website](https://my-app.com/) · [Source](https://github.com/author/my-app)', app);
@@ -35,7 +35,7 @@ test('enforces 10 KB as UTF-8 bytes, including multibyte text', () => {
 });
 
 test('renders local media from the archive and reserves H1 for the page title', async () => {
-  const { renderReadme } = await import('../scripts/readme.mjs');
+  const { renderReadme } = await import('../scripts/readme.ts');
   const html = renderReadme('# Overview\n\n![App](preview0.png)\n\n<video controls src="demo.mp4"></video>', app, 'https://raw.githubusercontent.com/owner/repo/sha/apps/my-app');
   assert.match(html, /<h2>Overview<\/h2>/);
   assert.match(html, /src="https:\/\/raw.githubusercontent.com\/owner\/repo\/sha\/apps\/my-app\/preview0.png"/);
