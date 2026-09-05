@@ -13,6 +13,15 @@ export async function validateCatalog(root) {
     const id = entry.name;
     assert(entry.isDirectory() && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id), `Invalid app folder: ${id}`);
     const folder = join(root, 'apps', id);
+    for (const name of await readdir(folder)) {
+      assert(!/\.(jpe?g|webp|avif|gif|svg|bmp|tiff?|ico|heic|heif|apng)$/i.test(name), `${id}: images must use PNG: ${name}`);
+      if (/\.png$/i.test(name)) {
+        const path = await realpath(join(folder, name));
+        assert.equal(dirname(path), await realpath(folder), `${id}: image outside app folder`);
+        const bytes = await readFile(path);
+        assert(bytes.subarray(0, 8).equals(Buffer.from('89504e470d0a1a0a', 'hex')), `${id}: incorrect image format for ${name}`);
+      }
+    }
     const app = JSON.parse(await readFile(join(folder, 'manifest.json'), 'utf8'));
     assert.equal(app.id, id, `${id}: manifest ID must match its folder`);
     assert(text(app.author), `${id}: author is required`);
@@ -31,13 +40,11 @@ export async function validateCatalog(root) {
     assert(app.starsUpdatedAt == null || date(app.starsUpdatedAt), `${id}: invalid starsUpdatedAt`);
     assert(Array.isArray(app.previews) && app.previews.length, `${id}: preview required`);
     for (const name of app.previews) {
-      assert(typeof name === 'string' && /^preview\d*\.(png|jpe?g|webp)$/i.test(name), `${id}: invalid preview filename`);
+      assert(typeof name === 'string' && /^preview\d*\.png$/i.test(name), `${id}: invalid preview filename`);
       const path = await realpath(join(folder, name));
       assert.equal(dirname(path), await realpath(folder), `${id}: preview outside app folder`);
       const data = await readFile(path);
-      const valid = /\.png$/i.test(name) ? data.subarray(0, 8).equals(Buffer.from('89504e470d0a1a0a', 'hex'))
-        : /\.jpe?g$/i.test(name) ? data[0] === 255 && data[1] === 216
-        : data.toString('ascii', 0, 4) === 'RIFF' && data.toString('ascii', 8, 12) === 'WEBP';
+      const valid = data.subarray(0, 8).equals(Buffer.from('89504e470d0a1a0a', 'hex'));
       assert(valid, `${id}: incorrect image format for ${name}`);
     }
     let readme;

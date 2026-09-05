@@ -21,6 +21,24 @@ async function fixture(t, overrides = {}, id = 'my-app') {
 test('accepts lowercase IDs, author, website, and local preview files', async t => {
   assert.equal(await validateCatalog(await fixture(t)), 1);
 });
+test('requires PNG previews with actual PNG contents', async t => {
+  for (const extension of ['jpg', 'jpeg', 'webp', 'avif', 'gif', 'svg']) {
+    await assert.rejects(validateCatalog(await fixture(t, { previews: [`preview0.${extension}`] })), /filename/);
+  }
+  const root = await fixture(t);
+  const path = join(root, 'apps/my-app/preview0.png');
+  await writeFile(path, Buffer.from('0000001c6674797061766966000000006d696631617669666d696166', 'hex'));
+  await assert.rejects(validateCatalog(root), /image format/);
+});
+test('requires PNG for other app images, even when not referenced', async t => {
+  const root = await fixture(t);
+  const path = join(root, 'apps/my-app/extra.webp');
+  await writeFile(path, 'unused image');
+  await assert.rejects(validateCatalog(root), /images must use PNG/);
+  await rm(path);
+  await writeFile(join(root, 'apps/my-app/detail.png'), 'not a PNG');
+  await assert.rejects(validateCatalog(root), /image format/);
+});
 test('keeps Featured exclusively in a valid root list', async t => {
   await assert.rejects(validateCatalog(await fixture(t, { featured: false })), /featured/);
   const root = await fixture(t);
