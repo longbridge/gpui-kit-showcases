@@ -1,0 +1,22 @@
+{
+  "id": "cloudbridge",
+  "name": "CloudBridge",
+  "author": "JetSquirrel",
+  "description": "A local-first dashboard for cloud and language model costs, bringing AWS, Alibaba Cloud, and DeepSeek spending into a unified view.",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://cloudbridge.jetsquirrel.cloud",
+  "source": "https://github.com/JetSquirrel/cloudbridge",
+  "building": true,
+  "featured": false,
+  "publishedAt": "2026-09-05T04:20:50.191Z",
+  "stars": 26,
+  "starsUpdatedAt": "2026-09-05T04:20:50.191Z",
+  "previews": [
+    "preview0.png"
+  ]
+}

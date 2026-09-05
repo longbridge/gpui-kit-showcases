@@ -1,25 +1,21 @@
 {
   "id": "dbflux",
   "name": "DBFlux",
+  "author": "0xErwin1",
+  "description": "A keyboard-first database client for relational and non-relational stores, with charts, dashboards, Lua scripting and MCP integration.",
   "category": "dev",
   "platforms": [
     "macOS",
     "Windows",
     "Linux"
   ],
-  "site": null,
+  "website": null,
   "source": "https://github.com/0xErwin1/dbflux",
-  "blurb": {
-    "en": "A keyboard-first database client for relational and non-relational stores, with charts, dashboards, Lua scripting and MCP integration.",
-    "zh": "键盘优先的数据库客户端，同时支持关系型与非关系型数据库，内置图表、仪表盘、Lua 脚本与 MCP 集成。"
-  },
+  "featured": true,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 169,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.png"
-  ],
-  "previewSources": {
-    "preview0.png": {
-      "url": "https://raw.githubusercontent.com/0xErwin1/dbflux/main/resources/dbflux.png",
-      "sha256": "636944c1541ebc4930dfca927e7825016b52ea288516f6646f0356d930b805cb"
-    }
-  }
+  ]
 }

@@ -1,25 +1,21 @@
 {
   "id": "longbridge-pro",
   "name": "Longbridge Pro",
+  "author": "Longbridge",
+  "description": "The trading desktop GPUI Kit was built for. Real-time quotes, charts and dense market data, shipped on all three platforms.",
   "category": "work",
   "platforms": [
     "macOS",
     "Windows",
     "Linux"
   ],
-  "site": "https://longbridge.com/desktop",
+  "website": "https://longbridge.com/desktop",
   "source": null,
-  "blurb": {
-    "en": "The trading desktop GPUI Kit was built for. Real-time quotes, charts and dense market data, shipped on all three platforms.",
-    "zh": "GPUI Kit 最初就是为它而生的交易桌面端。实时行情、图表与高密度市场数据，同时发布于三大平台。"
-  },
+  "featured": true,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": null,
+  "starsUpdatedAt": null,
   "previews": [
     "preview0.png"
-  ],
-  "previewSources": {
-    "preview0.png": {
-      "url": "https://github.com/user-attachments/assets/4100dcc7-1316-4105-8ab2-ee6f84d95206",
-      "sha256": "3a0618700cdf5d49434c281fb372b3015d667f6a77d2497db6dc445c069ef76a"
-    }
-  }
+  ]
 }

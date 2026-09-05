@@ -1,24 +1,20 @@
 {
   "id": "protide",
   "name": "Protide",
+  "author": "dreygur",
+  "description": "An API testing tool covering HTTP, GraphQL, WebSocket, gRPC, tRPC and Socket.IO, with mock servers and local-first P2P collaboration.",
   "category": "dev",
   "platforms": [
     "macOS",
     "Linux"
   ],
-  "site": null,
+  "website": null,
   "source": "https://github.com/dreygur/protide",
-  "blurb": {
-    "en": "An API testing tool covering HTTP, GraphQL, WebSocket, gRPC, tRPC and Socket.IO, with mock servers and local-first P2P collaboration.",
-    "zh": "API 测试工具，覆盖 HTTP、GraphQL、WebSocket、gRPC、tRPC 与 Socket.IO，并支持 Mock 服务与本地优先的 P2P 协作。"
-  },
+  "featured": false,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 3,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.png"
-  ],
-  "previewSources": {
-    "preview0.png": {
-      "url": "https://raw.githubusercontent.com/dreygur/protide/main/screenshot.png",
-      "sha256": "52d596eb8950a5b2ca58311a6dae853ccc9ee6aa91e4e99524117a44f8c2591a"
-    }
-  }
+  ]
 }

@@ -1,25 +1,21 @@
 {
   "id": "based",
   "name": "Based",
+  "author": "pavi2410",
+  "description": "A local-first, Git-friendly database client. Connections and saved queries live in a committed .based/ directory, with no backend service.",
   "category": "dev",
   "platforms": [
     "macOS",
     "Windows",
     "Linux"
   ],
-  "site": "https://based.pavi2410.com",
+  "website": "https://based.pavi2410.com",
   "source": "https://github.com/pavi2410/based",
-  "blurb": {
-    "en": "A local-first, Git-friendly database client. Connections and saved queries live in a committed .based/ directory, with no backend service.",
-    "zh": "本地优先、对 Git 友好的数据库客户端。连接配置与保存的查询都放在纳入版本库的 .based/ 目录里，无需后端服务。"
-  },
+  "featured": false,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 55,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.png"
-  ],
-  "previewSources": {
-    "preview0.png": {
-      "url": "https://github.com/user-attachments/assets/e4b98277-2983-43da-8f52-6bc3cf411071",
-      "sha256": "01a72d57d6e09cb8877b45d02045c3955972563b3ea946140b46c5871cee86be"
-    }
-  }
+  ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "iotmock",
+  "name": "IotMock",
+  "author": "startewho",
+  "description": "A Modbus TCP simulator with editable coils and registers, byte-order controls, request and response logs, and packet inspection tools.",
+  "category": "dev",
+  "platforms": [
+    "Windows"
+  ],
+  "website": null,
+  "source": "https://github.com/startewho/IotMock",
+  "featured": false,
+  "publishedAt": "2026-09-05T04:20:50.191Z",
+  "stars": 0,
+  "starsUpdatedAt": "2026-09-05T04:20:50.191Z",
+  "previews": [
+    "preview0.png"
+  ]
+}

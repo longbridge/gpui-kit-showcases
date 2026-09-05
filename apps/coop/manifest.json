@@ -1,25 +1,21 @@
 {
   "id": "coop",
   "name": "Coop",
+  "author": "reya",
+  "description": "A Nostr direct-message app, built on a fork of the component library.",
   "category": "work",
   "platforms": [
     "macOS",
     "Windows",
     "Linux"
   ],
-  "site": "https://coopchat.xyz",
+  "website": "https://coopchat.xyz",
   "source": "https://git.reya.su/reya/coop",
-  "blurb": {
-    "en": "A Nostr direct-message app, built on a fork of the component library.",
-    "zh": "基于组件库分支构建的 Nostr 私信应用。"
-  },
+  "featured": false,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": null,
+  "starsUpdatedAt": null,
   "previews": [
     "preview0.png"
-  ],
-  "previewSources": {
-    "preview0.png": {
-      "url": "https://github.com/user-attachments/assets/2bbdb5f0-944e-4ac2-9c30-a91912307d49",
-      "sha256": "1f485fefab39a19fdb998382ad3b10a312d7c90e100b7efae1eb53727f02b8cd"
-    }
-  }
+  ]
 }

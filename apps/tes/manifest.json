@@ -1,0 +1,23 @@
+{
+  "id": "tes",
+  "name": "TES",
+  "author": "GOODDASH",
+  "description": "A desktop workspace for CNC thermal experiments, combining temperature and displacement data collection, visualization, correlation analysis, and regression modeling.",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://gooddash.github.io/tes-website/",
+  "source": null,
+  "featured": true,
+  "publishedAt": "2026-09-05T04:20:50.191Z",
+  "stars": null,
+  "starsUpdatedAt": null,
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}

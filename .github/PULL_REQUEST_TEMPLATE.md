@@ -1,10 +1,13 @@
 ## App
 
-Describe what your app does and its current implementation status.
+Describe the product and its current implementation status.
 
-- [ ] Added or updated `apps/<app-id>/manifest.json` with English and Chinese descriptions.
-- [ ] Committed screenshots in the same folder and listed them in `previews`.
-- [ ] Screenshots are clear, show the complete application window, and are clean and tidy, as required by [CONTRIBUTING.md](../CONTRIBUTING.md). / 截图清晰、包含完整应用窗口，画面干净整洁。
-- [ ] Checked that project links work and screenshots accurately represent the app.
+- [ ] Used a lowercase kebab-case folder and matching manifest `id`.
+- [ ] Provided `author`, `website`/`source`, and an English `description` within 280 weighted characters.
+- [ ] Committed preview images in the app folder; `previews` contains only local filenames.
+- [ ] Screenshots are clear and tidy, with all four corners and all four window edges intact.
+- [ ] Any app README is product-only, at most 10 KB, and only links to the exact official website or GitHub repository. No installers, commands, scripts, or other links.
+- [ ] Left Featured selection, first inclusion time, and Stars metadata to maintainers/automation.
+- [ ] Ran `bun test` and `bun run validate`.
 
-Submissions are reviewed for completeness and quality. A submission does not guarantee inclusion in App Stories.
+Every merged app PR is listed in App Stories. Maintainers select and periodically adjust Featured placement; it is not guaranteed.

@@ -1,73 +1,100 @@
 # GPUI Kit Showcases
 
-Submit your GPUI Kit app here for consideration in [App Stories](https://gpui-kit.com/apps).
+Submit your GPUI Kit app through a pull request to appear in [App Stories](https://gpui-kit.com/apps).
 
-Submitting an app does **not** guarantee a listing. We select apps based on overall completeness and quality. The current display order considers project commit history, implementation, completeness and quality to highlight the strongest examples. We will revisit presentation and ordering as the collection grows.
-
-Read the [submission and screenshot guidelines](CONTRIBUTING.md) before opening a PR. Screenshots must be clear, show the complete application window, and present a clean, tidy interface.
-
-提交前请阅读[应用与截图提交规范](CONTRIBUTING.md)：截图须完整清晰、包含完整应用窗口，界面干净整洁。
+**Every merged app PR is listed. Featured placement is not guaranteed.** Maintainers select Featured apps based on project history, implementation, completeness and quality, and revisit the selection as apps evolve to highlight complete, representative examples.
 
 ## Submit an app
 
-1. Fork this repository and create `apps/<app-id>/` using a stable lowercase ID with hyphens.
-2. Add your screenshots as `preview0.png`, `preview1.png`, etc. PNG, JPEG and WebP are supported; keep the correct extension for the original file format. Commit the actual images here instead of linking to external image hosting.
-3. Add `manifest.json` using the example below. List screenshots in display order in `previews`; the first is the App Stories cover. Provide English and Chinese descriptions.
-4. Open a pull request with a short description of the app and its current implementation status. Maintainers will review completeness and quality before deciding whether to feature it.
+1. Read [CONTRIBUTING.md](CONTRIBUTING.md), including the complete-window screenshot requirements.
+2. Fork this repository and create `apps/<app-id>/`. Use lowercase kebab-case, such as `longbridge-lite`, `openlogi`, or `tty7`. No uppercase letters, spaces, underscores, or leading/trailing hyphens.
+3. Add your screenshots directly to that folder. `previews` only accepts local filenames; external URLs and paths are forbidden.
+4. Add `manifest.json` using the example below. Optionally add a product-only `README.md` of at most 10 KB (10,240 UTF-8 bytes) to enable an App Stories detail page.
+5. Open a PR. Maintainers review the content, confirm the first inclusion timestamp and decide Featured placement. After merging, automation updates GitHub Stars and publishes the app.
 
 ```text
 apps/
-  longbridge-pro/
+  longbridge-lite/
     preview0.png
     preview1.png
     manifest.json
-  another-app/
-    preview0.webp
-    manifest.json
+    README.md
 ```
 
 ```json
 {
   "id": "my-app",
   "name": "My App",
+  "author": "Author or organization",
+  "description": "A short English description of what the app does.",
   "category": "dev",
   "platforms": ["macOS", "Windows", "Linux"],
-  "site": "https://example.com",
+  "website": "https://example.com",
   "source": "https://github.com/owner/my-app",
-  "blurb": {
-    "en": "A short description of what the app does.",
-    "zh": "简要介绍应用的用途。"
-  },
   "building": true,
+  "featured": false,
+  "publishedAt": "2026-09-05T00:00:00Z",
   "previews": ["preview0.png", "preview1.png"]
 }
 ```
 
-- `id` must match the folder name.
-- `category`: `dev` (developer tools), `terminal` (terminal and network), `system` (system and desktop), or `work` (productivity and media).
-- `site` and `source` may be `null`, but at least one must be a public project link.
-- `building` is optional; set it to `true` if the app is still in development.
-- `previews` lists local image filenames, without paths or external URLs.
-- Existing archived entries include optional `previewSources`, recording the original URL and SHA-256 for each image. Preserve or update these records when replacing an archived screenshot.
+## Manifest fields
 
-## 提交应用
+| Field | Requirement |
+| --- | --- |
+| `id` | Required; matches the folder exactly. Lowercase letters/digits with single hyphens between words. |
+| `name` | Required display name; preserve brand capitalization. |
+| `author` | Required author or maintaining organization; displayed on the card and searchable. |
+| `description` | Required English string, at most 280 weighted characters using Twitter's standard `twitter-text` counting. No translated objects. |
+| `category` | `dev`, `terminal`, `system`, or `work`. |
+| `platforms` | Nonempty list of supported platforms. |
+| `website` | Official app website or `null`. |
+| `source` | Public source repository or `null`; at least one of `website` or `source` is required. |
+| `building` | Optional boolean; `true` for apps still in development. |
+| `featured` | Maintainer-owned boolean, default `false`. Contributors must not select their own app. |
+| `publishedAt` | ISO 8601 timestamp with timezone for first inclusion in App Stories; confirmed by maintainers. Preserve it for later updates. |
+| `previews` | Nonempty list of local image filenames in display order, such as `preview0.png`. The first is the cover. PNG, JPEG, and WebP are supported. |
+| `stars`, `starsUpdatedAt` | Automation-owned cached GitHub Stars and last successful update time. Do not edit manually. |
 
-提交并不保证会在官网收录。我们会综合考虑应用的整体完整度与品质；目前结合项目提交历史、实际实现情况、完整度与品质安排展示顺序，优先呈现更好的案例。随着案例增多，展示与排序方式会进一步调整。
+Featured apps appear first, following maintainer-managed `order.json`. Other apps form a separate group with newest-first and GitHub Stars sorting. Search includes names, authors and descriptions. The initial migration uses its archive timestamp as the inclusion date, not the application's original release date.
 
-Fork 本仓库，在 `apps/<app-id>/` 中加入截图和 `manifest.json`，然后发起 PR。`previews` 按展示顺序列出截图，第一张用作官网封面；简介请提供中英文。截图直接存入本仓库，避免外部图片删除、改名或 404。
+## Optional product README
 
-## Website maintenance
+`apps/<app-id>/README.md` enables a detail page for that app. It must contain product information only: purpose, features, supported workflows, and representative use cases.
 
-The local checkout lives alongside GPUI Kit at `../gpui-kit-showcases`. After reviewing an app, push its manifest and screenshots here before updating `website/src/components/AppsApp.vue` in GPUI Kit with the approved metadata and cover image. Website selection and ordering remain editorial; adding a manifest alone does not publish the app.
+- Maximum file size: **10 KB (10,240 UTF-8 bytes)**.
+- Links and plain URLs may only point to the **exact official `website` or GitHub `source` URL** in the manifest. Other hyperlink destinations, tracking links, email links and redirects are forbidden.
+- No installation/download links, installation instructions, Bash/shell scripts, commands, code blocks or raw HTML other than the allowed media tags.
+- CI checks Markdown links, reference links, autolinks, plain URLs, encoded links, file size, and command patterns. Maintainers also review whether the content is strictly a product introduction. Violations must be resolved before merging.
+- Product images and videos are allowed: Markdown images and HTML `img`, `video`, `source` tags with safe attributes. Media must be committed in the same app folder and referenced by local filename. No external media URLs, event handlers or styles. Videos must have controls. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Use raw GitHub image URLs pinned to the full archive commit SHA:
+## Automated updates and publication
 
-```text
-https://raw.githubusercontent.com/longbridge/gpui-kit-showcases/<commit-sha>/apps/<app-id>/preview0.png
+On merges to `main`, the workflow validates the catalog, refreshes GitHub Stars, commits updated manifests, and dispatches `release-docs.yml` in `longbridge/gpui-kit`. The same refresh runs every **Monday at 00:00 UTC (08:00 Singapore time)**, and can be run manually.
+
+Release Docs checks out the latest Showcase `main`, reads the manifests, cached stars and optional READMEs, then publishes the website. Images are served from this archive at a pinned commit. There is no manual metadata copy into GPUI Kit.
+
+Failed star requests preserve the last successful count and timestamp. Apps without a GitHub source repository have unknown counts. Bot commits made with `GITHUB_TOKEN` do not recursively trigger the workflow.
+
+## Local checks
+
+All scripts run with Bun:
+
+```bash
+bun install --frozen-lockfile
+bun test
+bun run validate
+bun run update-stars
 ```
 
-Pinning protects published website versions from later file moves. Keep previous archive history when replacing images.
+`update-stars` optionally reads `GITHUB_TOKEN` to increase GitHub API limits.
+
+## One-time automation setup
+
+Add a `DOCS_DISPATCH_TOKEN` Actions secret to this repository: a dedicated fine-grained token scoped only to `longbridge/gpui-kit` with **Actions: write**. The default `GITHUB_TOKEN` cannot dispatch workflows in another repository. See [GitHub's dispatch permissions](https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event).
+
+Merge the GPUI Kit website loader and release workflow changes before the first publication. Until the dispatch secret is configured, catalog checks and Stars updates can run, but dispatch fails with an actionable error. Rerun after setup. Allow the automation bot to commit star metadata on `main` if branch rules are enabled.
 
 ## Attribution
 
-Screenshots belong to their respective projects. Archived entries record their original URLs in `previewSources`. This archive does not change ownership or grant a new license to the images.
+Screenshots belong to their respective projects. Archiving them does not change ownership or grant a new license.

@@ -1,25 +1,21 @@
 {
   "id": "fulgur",
   "name": "Fulgur",
+  "author": "fulgur-app",
+  "description": "A lightning-fast native text editor: syntax highlighting for 60+ languages, SSH remote editing, Markdown and CSV views, and end-to-end encrypted sync you can self-host.",
   "category": "dev",
   "platforms": [
     "macOS",
     "Windows",
     "Linux"
   ],
-  "site": "https://fulgur.app",
+  "website": "https://fulgur.app",
   "source": "https://github.com/fulgur-app/Fulgur",
-  "blurb": {
-    "en": "A lightning-fast native text editor: syntax highlighting for 60+ languages, SSH remote editing, Markdown and CSV views, and end-to-end encrypted sync you can self-host.",
-    "zh": "轻快的原生文本编辑器：60+ 语言语法高亮、SSH 远程编辑、Markdown 与 CSV 视图，以及可自托管的端到端加密同步。"
-  },
+  "featured": false,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 43,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.webp"
-  ],
-  "previewSources": {
-    "preview0.webp": {
-      "url": "https://raw.githubusercontent.com/fulgur-app/Fulgur/main/assets/readme/fulgur_1.webp",
-      "sha256": "1b0762d89f85d40dcefb499ca97de243c4e3e72bce306559dc1095cdaba02efd"
-    }
-  }
+  ]
 }

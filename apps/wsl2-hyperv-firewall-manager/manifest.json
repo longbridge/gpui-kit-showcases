@@ -1,23 +1,19 @@
 {
   "id": "wsl2-hyperv-firewall-manager",
   "name": "WSL2 Hyper-V Firewall Manager",
+  "author": "ssut",
+  "description": "A GUI for WSL2's Hyper-V firewall rules instead of hand-written PowerShell: automatic port discovery, a git-like draft-and-commit workflow and snapshot rollback.",
   "category": "terminal",
   "platforms": [
     "Windows 11"
   ],
-  "site": null,
+  "website": null,
   "source": "https://github.com/ssut/WSL2-HyperV-Firewall-Manager",
-  "blurb": {
-    "en": "A GUI for WSL2's Hyper-V firewall rules instead of hand-written PowerShell: automatic port discovery, a git-like draft-and-commit workflow and snapshot rollback.",
-    "zh": "用图形界面管理 WSL2 的 Hyper-V 防火墙规则，不必再手写 PowerShell：自动发现端口、类似 Git 的暂存与提交流程，以及可回滚的快照历史。"
-  },
+  "featured": false,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 25,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.png"
-  ],
-  "previewSources": {
-    "preview0.png": {
-      "url": "https://raw.githubusercontent.com/ssut/WSL2-HyperV-Firewall-Manager/main/docs/screenshot.png",
-      "sha256": "712a737e702d13fc44264463a5c14a051495f1b3ec1b8df578607d969db2fad0"
-    }
-  }
+  ]
 }

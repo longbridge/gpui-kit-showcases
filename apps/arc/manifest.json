@@ -1,0 +1,20 @@
+{
+  "id": "arc",
+  "name": "Arc",
+  "author": "Muhammad-Owais-Warsi",
+  "description": "A native API client with request editing, environments, collections, a response viewer, and stress testing.",
+  "category": "dev",
+  "platforms": [
+    "Windows"
+  ],
+  "website": null,
+  "source": "https://github.com/Muhammad-Owais-Warsi/arc",
+  "featured": false,
+  "publishedAt": "2026-09-05T04:20:50.191Z",
+  "stars": 6,
+  "starsUpdatedAt": "2026-09-05T04:20:50.191Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png"
+  ]
+}

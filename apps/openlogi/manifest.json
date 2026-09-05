@@ -1,25 +1,21 @@
 {
   "id": "openlogi",
   "name": "OpenLogi",
+  "author": "AprilNEA",
+  "description": "A local-first alternative to Logitech Options+. Remap buttons, DPI and SmartShift over HID++ — with no account and no telemetry.",
   "category": "system",
   "platforms": [
     "macOS",
     "Windows",
     "Linux"
   ],
-  "site": "https://openlogi.org",
+  "website": "https://openlogi.org",
   "source": "https://github.com/AprilNEA/OpenLogi",
-  "blurb": {
-    "en": "A local-first alternative to Logitech Options+. Remap buttons, DPI and SmartShift over HID++ — with no account and no telemetry.",
-    "zh": "Logitech Options+ 的本地优先替代品。通过 HID++ 重映射按键、DPI 与 SmartShift，无需账号，也没有遥测。"
-  },
+  "featured": true,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 19349,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.png"
-  ],
-  "previewSources": {
-    "preview0.png": {
-      "url": "https://github.com/user-attachments/assets/d7e42a74-a3c5-49bb-9719-cc450fcedbce",
-      "sha256": "a5dfb7f1e91e76a789adbda33fa8ab5a7518ee5419f8f78b176e50e012bc6240"
-    }
-  }
+  ]
 }

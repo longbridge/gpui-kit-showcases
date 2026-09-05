@@ -1,23 +1,19 @@
 {
   "id": "ferrispass",
   "name": "FerrisPass",
+  "author": "elias-tilegant",
+  "description": "A KeePass-compatible password manager that reads and writes KDBX 4 vaults, with TOTP, Auto-Type, auto-lock and a headless CLI.",
   "category": "system",
   "platforms": [
     "macOS"
   ],
-  "site": null,
+  "website": null,
   "source": "https://github.com/elias-tilegant/ferrispass",
-  "blurb": {
-    "en": "A KeePass-compatible password manager that reads and writes KDBX 4 vaults, with TOTP, Auto-Type, auto-lock and a headless CLI.",
-    "zh": "兼容 KeePass 的密码管理器，可读写 KDBX 4 保险库，支持 TOTP、Auto-Type、自动锁定与无界面 CLI。"
-  },
+  "featured": false,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 2,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.jpg"
-  ],
-  "previewSources": {
-    "preview0.jpg": {
-      "url": "https://raw.githubusercontent.com/elias-tilegant/ferrispass/master/docs/img/sharepoint/01-welcome.jpeg",
-      "sha256": "0a4256d55c52a6200801619d7e68acdd52edd525974c60f6c362989e0f7c551d"
-    }
-  }
+  ]
 }

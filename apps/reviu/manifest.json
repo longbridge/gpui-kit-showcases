@@ -1,25 +1,21 @@
 {
   "id": "reviu",
   "name": "Reviu",
+  "author": "reviu-dev",
+  "description": "A keyboard-first Git client for reviewing AI-generated changes before you push, with GitHub pull requests, inline threads and AI briefs.",
   "category": "dev",
   "platforms": [
     "macOS",
     "Windows",
     "Linux"
   ],
-  "site": "https://reviu.dev",
+  "website": "https://reviu.dev",
   "source": "https://github.com/reviu-dev/reviu",
-  "blurb": {
-    "en": "A keyboard-first Git client for reviewing AI-generated changes before you push, with GitHub pull requests, inline threads and AI briefs.",
-    "zh": "键盘优先的 Git 客户端，让你在推送前审阅 AI 生成的改动，支持 GitHub Pull Request、行内讨论与 AI 摘要。"
-  },
+  "featured": true,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 12,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.png"
-  ],
-  "previewSources": {
-    "preview0.png": {
-      "url": "https://raw.githubusercontent.com/reviu-dev/reviu/main/website/src/assets/app_screenshots/git_dark.png",
-      "sha256": "71dfc014da17d96cf9bfec02c4324ea8ac9b07a5f8ca81c55e395564f4502d6f"
-    }
-  }
+  ]
 }

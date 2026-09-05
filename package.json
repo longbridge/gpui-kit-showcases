@@ -1,0 +1,16 @@
+{
+  "name": "gpui-kit-showcases",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "bun scripts/validate.mjs",
+    "update-stars": "bun scripts/update-stars.mjs",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "he": "^1.2.0",
+    "marked": "^18.0.11",
+    "parse5": "^8.0.1",
+    "twitter-text": "^3.1.0"
+  }
+}

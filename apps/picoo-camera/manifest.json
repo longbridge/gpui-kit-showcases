@@ -1,0 +1,20 @@
+{
+  "id": "picoo-camera",
+  "name": "Picoo Camera",
+  "author": "Haoxincode",
+  "description": "Turn an Android phone or iPhone into a wireless desktop webcam over your local network for video meetings and OBS.",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "website": null,
+  "source": "https://github.com/Haoxincode/picoo-camera",
+  "featured": false,
+  "publishedAt": "2026-09-05T04:20:50.191Z",
+  "stars": 0,
+  "starsUpdatedAt": "2026-09-05T04:20:50.191Z",
+  "previews": [
+    "preview0.png"
+  ]
+}

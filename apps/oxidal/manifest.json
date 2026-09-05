@@ -1,25 +1,21 @@
 {
   "id": "oxidal",
   "name": "Oxidal",
+  "author": "sh4den",
+  "description": "A native SSH session manager for people who avoid Electron: organized connections, an integrated terminal and local-only configuration.",
   "category": "terminal",
   "platforms": [
     "macOS",
     "Windows",
     "Linux"
   ],
-  "site": null,
+  "website": null,
   "source": "https://github.com/sh4den/Oxidal",
-  "blurb": {
-    "en": "A native SSH session manager for people who avoid Electron: organized connections, an integrated terminal and local-only configuration.",
-    "zh": "为不想用 Electron 的人准备的原生 SSH 会话管理器：分组连接、内置终端，配置全部保存在本地。"
-  },
+  "featured": false,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 22,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.png"
-  ],
-  "previewSources": {
-    "preview0.png": {
-      "url": "https://github.com/user-attachments/assets/c4483678-4f32-4e09-86b2-ef6a7b4a83ec",
-      "sha256": "8554c18d4320c8e2d84459a9ac34824ba575d6fb2b5d2d893aea450b6b11e33c"
-    }
-  }
+  ]
 }

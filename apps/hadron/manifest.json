@@ -1,25 +1,21 @@
 {
   "id": "hadron",
   "name": "Hadron",
+  "author": "s0lda",
+  "description": "A multi-agent execution environment: isolated Git worktrees, an automatic merge gate, interactive terminals and per-agent telemetry.",
   "category": "dev",
   "platforms": [
     "macOS",
     "Windows",
     "Linux"
   ],
-  "site": null,
+  "website": null,
   "source": "https://github.com/s0lda/hadron",
-  "blurb": {
-    "en": "A multi-agent execution environment: isolated Git worktrees, an automatic merge gate, interactive terminals and per-agent telemetry.",
-    "zh": "多 Agent 执行环境：隔离的 Git worktree、自动合并闸门、交互式终端与逐 Agent 的运行指标。"
-  },
+  "featured": false,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 12,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.png"
-  ],
-  "previewSources": {
-    "preview0.png": {
-      "url": "https://raw.githubusercontent.com/s0lda/hadron/main/assets/demo_3.png",
-      "sha256": "bd7d92c01a72fc27d182577dbf95487a8a7c34a3005f12f99beef8e865936913"
-    }
-  }
+  ]
 }

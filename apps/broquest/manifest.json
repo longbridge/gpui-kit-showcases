@@ -1,25 +1,21 @@
 {
   "id": "broquest",
   "name": "Broquest",
+  "author": "zanmato",
+  "description": "A local-first API client with JavaScript scripting and secrets management — an alternative to Postman, Insomnia and Bruno.",
   "category": "dev",
   "platforms": [
     "macOS",
     "Windows",
     "Linux"
   ],
-  "site": null,
+  "website": null,
   "source": "https://github.com/zanmato/broquest",
-  "blurb": {
-    "en": "A local-first API client with JavaScript scripting and secrets management — an alternative to Postman, Insomnia and Bruno.",
-    "zh": "本地优先的 API 客户端，支持 JavaScript 脚本与密钥管理，可替代 Postman、Insomnia 与 Bruno。"
-  },
+  "featured": false,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": 9,
+  "starsUpdatedAt": "2026-09-05T04:03:00.129Z",
   "previews": [
     "preview0.webp"
-  ],
-  "previewSources": {
-    "preview0.webp": {
-      "url": "https://raw.githubusercontent.com/zanmato/broquest/main/docs/images/screenshot.webp",
-      "sha256": "b8bc002345058b4f36585f755194f6213f78d68d7990eff5de66150baab772f9"
-    }
-  }
+  ]
 }

@@ -1,23 +1,19 @@
 {
   "id": "aloud-ink",
   "name": "Aloud Ink",
+  "author": "Aloud Ink",
+  "description": "A native macOS dictation app: hold a global shortcut to speak, release to get clean, filler-free text at your cursor in any app.",
   "category": "work",
   "platforms": [
     "macOS"
   ],
-  "site": "https://aloud.ink/",
+  "website": "https://aloud.ink/",
   "source": null,
-  "blurb": {
-    "en": "A native macOS dictation app: hold a global shortcut to speak, release to get clean, filler-free text at your cursor in any app.",
-    "zh": "macOS 原生听写应用：按住全局快捷键说话，松开即在任意应用的光标处得到去掉语气词的干净文本。"
-  },
+  "featured": true,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": null,
+  "starsUpdatedAt": null,
   "previews": [
     "preview0.jpg"
-  ],
-  "previewSources": {
-    "preview0.jpg": {
-      "url": "https://github.com/user-attachments/assets/5c2b5a5f-d4cc-4e8d-a72f-a298ac86bf23",
-      "sha256": "053f302b619a3b341119065b9040567fec3c414c1c5be227aa2c49739ccd1614"
-    }
-  }
+  ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "widget-rs",
+  "name": "Widget-RS",
+  "author": "tierlabx",
+  "description": "Modular desktop widgets for Windows, including sticky notes, to-do lists, break reminders, and desktop fences, with snapping and persistent layouts.",
+  "category": "system",
+  "platforms": [
+    "Windows"
+  ],
+  "website": null,
+  "source": "https://github.com/tierlabx/widget-rs",
+  "featured": false,
+  "publishedAt": "2026-09-05T04:20:50.191Z",
+  "stars": 1,
+  "starsUpdatedAt": "2026-09-05T04:20:50.191Z",
+  "previews": [
+    "preview0.png"
+  ]
+}
