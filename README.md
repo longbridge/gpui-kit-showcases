@@ -52,7 +52,7 @@ apps/
 | `building` | Optional boolean; `true` for apps still in development. |
 | `publishedAt` | ISO 8601 timestamp with timezone for first inclusion in App Stories; confirmed by maintainers. Preserve it for later updates. |
 | `previews` | Nonempty list of local image filenames in display order, such as `preview0.png`. The first is the cover. PNG, JPEG, and WebP are supported. |
-| `stars`, `starsUpdatedAt` | Automation-owned cached GitHub Stars and last successful update time. Do not edit manually. |
+| `stars`, `starsUpdatedAt` | Automation-owned cached GitHub Stars and the time the count was first recorded or last changed. Do not edit manually. |
 
 Featured apps appear first, following maintainer-managed `featured.json`. Other apps form a separate group with newest-first and GitHub Stars sorting. Search includes names, authors and descriptions. The initial migration uses its archive timestamp as the inclusion date, not the application's original release date.
 
@@ -74,7 +74,7 @@ On merges to `main`, the workflow validates the catalog, refreshes GitHub Stars,
 
 Release Docs checks out the latest Showcase `main`, reads the manifests, cached stars and optional READMEs, then publishes the website. Images are served from this archive at a pinned commit. There is no manual metadata copy into GPUI Kit.
 
-Failed star requests preserve the last successful count and timestamp. Apps without a GitHub source repository have unknown counts. Bot commits made with `GITHUB_TOKEN` do not recursively trigger the workflow.
+Only changed star counts update the manifest and `starsUpdatedAt`. Unchanged counts leave files and timestamps untouched, so a refresh with no changes creates no bot commit. Failed star requests preserve the last successful count and timestamp. Apps without a GitHub source repository have unknown counts. Bot commits made with `GITHUB_TOKEN` do not recursively trigger the workflow.
 
 ## Local checks
 
