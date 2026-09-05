@@ -24,7 +24,8 @@ export async function validateCatalog(root) {
     for (const link of [app.website, app.source]) {
       if (link != null) assert(['http:', 'https:'].includes(new URL(link).protocol), `${id}: invalid project URL`);
     }
-    for (const key of ['featured', 'building']) assert(app[key] === undefined || typeof app[key] === 'boolean', `${id}: invalid ${key}`);
+    assert(!Object.hasOwn(app, 'featured'), `${id}: featured belongs in root featured.json, not the manifest`);
+    assert(app.building === undefined || typeof app.building === 'boolean', `${id}: invalid building`);
     assert(date(app.publishedAt), `${id}: publishedAt must be an ISO 8601 timestamp with timezone`);
     assert(app.stars == null || (Number.isInteger(app.stars) && app.stars >= 0), `${id}: invalid stars`);
     assert(app.starsUpdatedAt == null || date(app.starsUpdatedAt), `${id}: invalid starsUpdatedAt`);
@@ -55,8 +56,8 @@ export async function validateCatalog(root) {
     ids.push(id);
   }
   assert(ids.length, 'The catalog must not be empty');
-  const order = JSON.parse(await readFile(join(root, 'order.json'), 'utf8'));
-  assert(Array.isArray(order) && new Set(order).size === order.length && order.every(id => ids.includes(id)), 'Invalid order.json');
+  const featured = JSON.parse(await readFile(join(root, 'featured.json'), 'utf8'));
+  assert(Array.isArray(featured) && new Set(featured).size === featured.length && featured.every(id => ids.includes(id)), 'Invalid featured.json');
   return ids.length;
 }
 

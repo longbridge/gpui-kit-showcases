@@ -8,7 +8,7 @@ Every merged app PR is listed in App Stories. Featured placement is not guarante
 
 Use `apps/<app-id>/manifest.json` with a lowercase kebab-case ID, such as `longbridge-lite`, `openlogi`, or `tty7`. Only lowercase ASCII letters, digits, and single hyphens between words are allowed. The manifest `id` must match its folder exactly. The display `name` may retain brand capitalization.
 
-Provide the required `author`, English-only `description`, and `website`/`source` fields. Descriptions are limited to 280 weighted characters, using the standard [Twitter counting rules](https://docs.x.com/fundamentals/counting-characters). See [README.md](README.md) for all manifest fields. Maintainers confirm `featured` and `publishedAt`; automation maintains Stars.
+Provide the required `author`, English-only `description`, and `website`/`source` fields. Descriptions are limited to 280 weighted characters, using the standard [Twitter counting rules](https://docs.x.com/fundamentals/counting-characters). See [README.md](README.md) for all manifest fields. Maintainers manage Featured selection and order in the root `featured.json` array and confirm `publishedAt`; automation maintains Stars. Do not include `featured` in app manifests.
 
 ## Screenshots
 

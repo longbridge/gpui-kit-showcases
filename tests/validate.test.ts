@@ -15,11 +15,21 @@ async function fixture(t, overrides = {}, id = 'my-app') {
     publishedAt: '2026-09-05T00:00:00Z', previews: ['preview0.png'], ...overrides };
   await writeFile(join(folder, 'manifest.json'), JSON.stringify(app));
   await writeFile(join(folder, 'preview0.png'), Buffer.from('89504e470d0a1a0a', 'hex'));
-  await writeFile(join(root, 'order.json'), JSON.stringify([id]));
+  await writeFile(join(root, 'featured.json'), JSON.stringify([id]));
   return root;
 }
 test('accepts lowercase IDs, author, website, and local preview files', async t => {
   assert.equal(await validateCatalog(await fixture(t)), 1);
+});
+test('keeps Featured exclusively in a valid root list', async t => {
+  await assert.rejects(validateCatalog(await fixture(t, { featured: false })), /featured/);
+  const root = await fixture(t);
+  for (const list of [['missing-app'], ['my-app', 'my-app'], {}]) {
+    await writeFile(join(root, 'featured.json'), JSON.stringify(list));
+    await assert.rejects(validateCatalog(root), /featured/);
+  }
+  await writeFile(join(root, 'featured.json'), '[]');
+  assert.equal(await validateCatalog(root), 1);
 });
 test('rejects uppercase folder names and mismatched manifest IDs', async t => {
   await assert.rejects(validateCatalog(await fixture(t, {}, 'Bad-App')), /folder/);

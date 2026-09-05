@@ -32,7 +32,6 @@ apps/
   "website": "https://example.com",
   "source": "https://github.com/owner/my-app",
   "building": true,
-  "featured": false,
   "publishedAt": "2026-09-05T00:00:00Z",
   "previews": ["preview0.png", "preview1.png"]
 }
@@ -51,12 +50,13 @@ apps/
 | `website` | Official app website or `null`. |
 | `source` | Public source repository or `null`; at least one of `website` or `source` is required. |
 | `building` | Optional boolean; `true` for apps still in development. |
-| `featured` | Maintainer-owned boolean, default `false`. Contributors must not select their own app. |
 | `publishedAt` | ISO 8601 timestamp with timezone for first inclusion in App Stories; confirmed by maintainers. Preserve it for later updates. |
 | `previews` | Nonempty list of local image filenames in display order, such as `preview0.png`. The first is the cover. PNG, JPEG, and WebP are supported. |
 | `stars`, `starsUpdatedAt` | Automation-owned cached GitHub Stars and last successful update time. Do not edit manually. |
 
-Featured apps appear first, following maintainer-managed `order.json`. Other apps form a separate group with newest-first and GitHub Stars sorting. Search includes names, authors and descriptions. The initial migration uses its archive timestamp as the inclusion date, not the application's original release date.
+Featured apps appear first, following maintainer-managed `featured.json`. Other apps form a separate group with newest-first and GitHub Stars sorting. Search includes names, authors and descriptions. The initial migration uses its archive timestamp as the inclusion date, not the application's original release date.
+
+The root `featured.json` is an ordered array of app IDs, for example `["orrery", "tes"]`. It is the single source for Featured membership and order. IDs must be unique and refer to existing apps; an empty array is allowed. Do not add a `featured` field to `manifest.json`.
 
 ## Optional product README
 
