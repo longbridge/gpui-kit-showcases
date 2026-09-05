@@ -1,0 +1,25 @@
+{
+  "id": "scope",
+  "name": "Scope",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/scopeclient/scope",
+  "blurb": {
+    "en": "A native Discord client built for power users.",
+    "zh": "面向重度用户的原生 Discord 客户端。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://github.com/user-attachments/assets/0688be40-5f9b-4171-bc18-fef4e5fa2384",
+      "sha256": "74d14b23e95ae67aea00938e811684791cafabf8d0492fffe410394a49297f34"
+    }
+  }
+}

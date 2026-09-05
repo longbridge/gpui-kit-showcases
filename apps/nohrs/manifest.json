@@ -1,0 +1,24 @@
+{
+  "id": "nohrs",
+  "name": "Nohrs",
+  "category": "system",
+  "platforms": [
+    "macOS"
+  ],
+  "site": null,
+  "source": "https://github.com/noh-rs/nohrs",
+  "building": true,
+  "blurb": {
+    "en": "A Raycast-style launcher and a keyboard-driven file explorer in one Finder alternative, extensible with sandboxed WASM plugins and its own search index.",
+    "zh": "把 Raycast 式启动器与键盘驱动的文件浏览器合成一个 Finder 替代品，可用沙箱化的 WASM 插件扩展，并自带搜索索引。"
+  },
+  "previews": [
+    "preview0.jpg"
+  ],
+  "previewSources": {
+    "preview0.jpg": {
+      "url": "https://raw.githubusercontent.com/noh-rs/nohrs/develop/assets/doc/screen-shot.jpeg",
+      "sha256": "6301ee92d6e7115df2d52dc9a116d6eacb9489a8f5d606e0f1a029acb6484906"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "cadence",
+  "name": "Cadence",
+  "category": "work",
+  "platforms": [
+    "macOS"
+  ],
+  "site": null,
+  "source": "https://github.com/infomiho/cadence",
+  "blurb": {
+    "en": "A minimal native Spotify player for macOS.",
+    "zh": "macOS 上的极简原生 Spotify 播放器。"
+  },
+  "previews": [
+    "preview0.webp"
+  ],
+  "previewSources": {
+    "preview0.webp": {
+      "url": "https://raw.githubusercontent.com/infomiho/cadence/main/assets/cadence.webp",
+      "sha256": "9f9d8283d3d6361ee254031a83c4308190ff9756a3b71a4aee360c64566d97bf"
+    }
+  }
+}

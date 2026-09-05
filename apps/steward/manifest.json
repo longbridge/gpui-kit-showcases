@@ -1,0 +1,24 @@
+{
+  "id": "steward",
+  "name": "Steward",
+  "category": "system",
+  "platforms": [
+    "Windows"
+  ],
+  "site": null,
+  "source": "https://github.com/iFence/steward",
+  "building": true,
+  "blurb": {
+    "en": "A small Windows launcher and plugin platform: a global hotkey, fuzzy search over a SQLite app index, and plugins written in JavaScript over JSON-RPC.",
+    "zh": "小巧的 Windows 启动器与插件平台：全局快捷键唤起、基于 SQLite 应用索引的模糊搜索，插件用 JavaScript 编写并通过 JSON-RPC 通信。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://raw.githubusercontent.com/iFence/steward/master/assets/1.png",
+      "sha256": "09f3a518901babb33354e40dd393d69baeda646c534b03d6f17e65a1284c1878"
+    }
+  }
+}

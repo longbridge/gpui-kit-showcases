@@ -1,0 +1,25 @@
+{
+  "id": "pawse",
+  "name": "Pawse",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/popovpsk/pawse",
+  "blurb": {
+    "en": "A native player for a local music library: bit-perfect playback matching sample rate and bit depth, FLAC through DSD, time-synced lyrics and a built-in web remote.",
+    "zh": "面向本地音乐库的原生播放器：匹配采样率与位深的 bit-perfect 播放，格式覆盖 FLAC 到 DSD，并支持逐行同步歌词与内置网页遥控。"
+  },
+  "previews": [
+    "preview0.webp"
+  ],
+  "previewSources": {
+    "preview0.webp": {
+      "url": "https://raw.githubusercontent.com/popovpsk/pawse/main/.docs/screenshots/artists.webp",
+      "sha256": "06b7999c0b31ff498ecadf2737ed86e9fd5d4bb96d104cf9892a7e512c5d6fc9"
+    }
+  }
+}

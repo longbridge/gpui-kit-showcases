@@ -1,0 +1,26 @@
+{
+  "id": "kazeterm",
+  "name": "KazeTerm",
+  "category": "terminal",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/bikesheddev/kazeterm",
+  "building": true,
+  "blurb": {
+    "en": "A lightweight terminal inspired by Windows Terminal and built around Alacritty, with tabs, theme overlays and swappable terminal backends.",
+    "zh": "受 Windows Terminal 启发的轻量终端，基于 Alacritty 构建，支持标签、主题覆盖与可替换的终端后端。"
+  },
+  "previews": [
+    "preview0.webp"
+  ],
+  "previewSources": {
+    "preview0.webp": {
+      "url": "https://raw.githubusercontent.com/bikesheddev/kazeterm/master/assets/screenshots/Screenshot_2026-03-14.webp",
+      "sha256": "e682614163cb61ba98ec99417e3a744b137815abbd66b48d7cf05c6e5d3dedc9"
+    }
+  }
+}

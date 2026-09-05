@@ -1,0 +1,24 @@
+{
+  "id": "orrery",
+  "name": "Orrery",
+  "category": "dev",
+  "platforms": [
+    "Linux"
+  ],
+  "site": "https://hankanman.github.io/Orrery/",
+  "source": "https://github.com/Hankanman/Orrery",
+  "building": true,
+  "blurb": {
+    "en": "A command center for every git repository in your dev directories: live status in one dense grid, host enrichment, on-device AI summaries, and one-click launch into an IDE or terminal agent.",
+    "zh": "面向 Git 仓库的指挥中心，把开发目录里的每个仓库汇总成一张高密度网格：实时状态、托管平台信息、本地 AI 摘要，一键在 IDE 或终端 Agent 中打开。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://github.com/user-attachments/assets/ca69a657-8d13-416d-aa8f-ea15e12f4b90",
+      "sha256": "4e4a1251ea170176369433014d3e163528da4df268a9aa34314891e38976eba1"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "tty7",
+  "name": "tty7",
+  "category": "terminal",
+  "platforms": [
+    "macOS",
+    "Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/l0ng-ai/tty7",
+  "blurb": {
+    "en": "A terminal workbench in pure Rust: persistent sessions, SSH, remote work and coding agents, over Alacritty's VT core.",
+    "zh": "纯 Rust 编写的终端工作台：持久会话、SSH、远程办公与编码 Agent，VT 内核来自 Alacritty。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://github.com/user-attachments/assets/bae50352-bb22-46b8-8c45-c9c5dff1cd89",
+      "sha256": "a51bc765a083d47860c4a4ca1f550ad2e401787c120d28fcf6b9733b6bb30249"
+    }
+  }
+}

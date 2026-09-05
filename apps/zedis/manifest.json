@@ -1,0 +1,25 @@
+{
+  "id": "zedis",
+  "name": "Zedis",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "site": "https://zedis.net/",
+  "source": "https://github.com/vicanso/zedis",
+  "blurb": {
+    "en": "A native Redis GUI that opens a million-key database without a spinner: virtual-scrolled SCAN, typed value viewers, a memory analyzer and live metrics.",
+    "zh": "原生 Redis GUI，打开百万级键的数据库也不用等转圈：虚拟滚动的 SCAN、按类型定制的值查看器、内存分析与实时指标。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://raw.githubusercontent.com/vicanso/zedis/main/docs/images/key-browser.png",
+      "sha256": "7ef450c420adcfbce77528acabca5ae56d87af7e96fa14d03a0d2e96f5a7e8ef"
+    }
+  }
+}

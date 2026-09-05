@@ -1,0 +1,23 @@
+{
+  "id": "openprocmon",
+  "name": "OpenProcMon",
+  "category": "dev",
+  "platforms": [
+    "Windows"
+  ],
+  "site": null,
+  "source": "https://github.com/progmboy/openprocmon",
+  "blurb": {
+    "en": "An open-source Windows Process Monitor: a kernel miniFilter driver, Procmon-compatible PML capture and replay, and an MCP interface.",
+    "zh": "开源的 Windows Process Monitor：内核 miniFilter 驱动、兼容 Procmon 的 PML 抓取与回放，并提供 MCP 接口。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://raw.githubusercontent.com/progmboy/openprocmon/master/docs/snapshots/main.png",
+      "sha256": "02b415ab5034310f6219bde2cf8d1334b4cbe9f2cdf25b3ce06f38f3167adca3"
+    }
+  }
+}

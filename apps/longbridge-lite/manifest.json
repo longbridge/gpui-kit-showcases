@@ -1,0 +1,25 @@
+{
+  "id": "longbridge-lite",
+  "name": "Longbridge Lite",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/longbridge/longbridge-lite",
+  "blurb": {
+    "en": "A market-reading Longbridge client made for Omarchy, following its system theme and keyboard conventions — and the reference for running a JavaScript application natively through GPUI Shell.",
+    "zh": "为 Omarchy 定制的 Longbridge 行情客户端，跟随其系统主题与键盘约定；同时也是用 GPUI Shell 让 JavaScript 应用以原生方式运行的参考实现。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://github.com/user-attachments/assets/90f3a5b6-34c9-4a23-a9b4-864825cda4ef",
+      "sha256": "6683f27487a1f36acda49a9ab7d712e691c67fbe90fbfb9b06efcf90bc11fcfa"
+    }
+  }
+}

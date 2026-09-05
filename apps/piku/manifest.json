@@ -1,0 +1,25 @@
+{
+  "id": "piku",
+  "name": "Piku",
+  "category": "system",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/pikachuu184/Piku",
+  "blurb": {
+    "en": "A fast, monochrome, keyboard-driven file manager with tabbed and split workspaces and rich previews for images, PDFs, code and archives.",
+    "zh": "快速的单色键盘驱动文件管理器，支持标签与分屏工作区，并为图片、PDF、代码与压缩包提供丰富预览。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://raw.githubusercontent.com/pikachuu184/Piku/main/assets/branding/Screenshot%20%2813%29.png",
+      "sha256": "53cd0c91211b0241beb89a5060f8611d7b4b0a7b06b77bc412a3b9cff515452e"
+    }
+  }
+}

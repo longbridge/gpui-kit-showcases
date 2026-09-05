@@ -1,0 +1,25 @@
+{
+  "id": "zenclash",
+  "name": "ZenClash",
+  "category": "terminal",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/HaiwenZhang/ZenClash",
+  "blurb": {
+    "en": "A desktop client for the Mihomo proxy core.",
+    "zh": "Mihomo 代理内核的桌面客户端。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://github.com/user-attachments/assets/f9f0deb3-7bab-4288-87fb-aa5581bd59d1",
+      "sha256": "86c9b0d2faa58cfa9b2a00b8f83dfeacfab126ba42c58ddc45e026309adfde81"
+    }
+  }
+}

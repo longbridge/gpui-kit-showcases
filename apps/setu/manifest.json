@@ -1,0 +1,26 @@
+{
+  "id": "setu",
+  "name": "Setu",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/bajrangCoder/setu",
+  "building": true,
+  "blurb": {
+    "en": "A minimal REST client with layered Global, Workspace and Project variables, multiple workspaces, Postman collection import and keyboard shortcuts throughout.",
+    "zh": "极简的 REST 客户端：Global / Workspace / Project 三层变量作用域、多工作区管理、Postman 集合导入，并全程支持键盘操作。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://raw.githubusercontent.com/bajrangCoder/setu/main/assets/demo.png",
+      "sha256": "c1118bd2c32bd0a04ee2da671b03474c02aec46cfcfc48ee28b2ce77a371da83"
+    }
+  }
+}

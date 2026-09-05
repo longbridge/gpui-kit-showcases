@@ -1,0 +1,23 @@
+{
+  "id": "omarchist",
+  "name": "Omarchist",
+  "category": "system",
+  "platforms": [
+    "Omarchy Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/tahayvr/omarchist",
+  "blurb": {
+    "en": "The configuration and theme designer for Omarchy Linux, with visual theme editing, live previews and a built-in theme collection.",
+    "zh": "Omarchy Linux 的配置与主题设计工具，支持可视化主题编辑、实时预览，并内置一套主题集合。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://raw.githubusercontent.com/tahayvr/omarchist/main/screenshots/omarchist-themes.png",
+      "sha256": "fb5bb0577b7aba92b869e5e3bca33b3a40d950d7fd1d8121873af2feab6e6665"
+    }
+  }
+}

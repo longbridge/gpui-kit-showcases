@@ -1,0 +1,24 @@
+{
+  "id": "nyx",
+  "name": "Nyx",
+  "category": "terminal",
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/BX-Team/Nyx",
+  "blurb": {
+    "en": "A lightweight desktop GUI for the Mihomo proxy core, with profiles, proxy groups, rules, TUN mode and a connection inspector.",
+    "zh": "Mihomo 代理内核的轻量桌面 GUI，涵盖配置、代理组、规则、TUN 模式与连接检查器。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://raw.githubusercontent.com/BX-Team/Nyx/master/.github/branding/preview.png",
+      "sha256": "7504a0591fa02d91ae07efa49a287559eb3eaa574cf8a5dcc72a2f962a7da3e4"
+    }
+  }
+}

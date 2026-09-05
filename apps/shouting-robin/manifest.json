@@ -1,0 +1,25 @@
+{
+  "id": "shouting-robin",
+  "name": "Shouting Robin",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "site": null,
+  "source": "https://github.com/zanmato/shouting-robin",
+  "blurb": {
+    "en": "An SEO crawler for e-commerce sites, crawling over plain HTTP or a real Chrome through spider-rs.",
+    "zh": "面向电商站点的 SEO 爬虫，可通过 spider-rs 使用纯 HTTP 或真实 Chrome 抓取。"
+  },
+  "previews": [
+    "preview0.webp"
+  ],
+  "previewSources": {
+    "preview0.webp": {
+      "url": "https://raw.githubusercontent.com/zanmato/shouting-robin/main/docs/images/screenshot-dark.webp",
+      "sha256": "ace168cc9cc409c16ab63e48d76ba4e7d65c2fa0241f140350ed02b1619d44dc"
+    }
+  }
+}

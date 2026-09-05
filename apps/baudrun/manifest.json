@@ -1,0 +1,25 @@
+{
+  "id": "baudrun",
+  "name": "Baudrun",
+  "category": "terminal",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "site": "https://packetthrower.github.io/Baudrun/",
+  "source": "https://github.com/packetThrower/Baudrun",
+  "blurb": {
+    "en": "A serial terminal for switch consoles and router CLIs, with saved device profiles, auto-reconnect, safe paste and XMODEM/YMODEM transfers.",
+    "zh": "面向交换机 Console 与路由器 CLI 的串口终端，支持设备配置、自动重连、安全粘贴与 XMODEM/YMODEM 传输。"
+  },
+  "previews": [
+    "preview0.png"
+  ],
+  "previewSources": {
+    "preview0.png": {
+      "url": "https://raw.githubusercontent.com/packetThrower/Baudrun/main/docs-next/public/screenshots/macos-dark-baudrun.png",
+      "sha256": "b04362d0d00a5ba673dbf33ab52694e11e9ce9a5d037a772f6558e770d4edc54"
+    }
+  }
+}
