@@ -22,10 +22,17 @@ test('rejects installers, shell commands and code blocks even on an allowed webs
 });
 
 test('allows local product images and videos with safe attributes', () => {
-  const media = validateReadme('![App](preview0.png)\n\n<img src="preview1.webp" alt="App">\n\n![AVIF](preview2.avif)\n\n<video controls src="demo.mp4" poster="preview0.png"></video>', app);
-  assert.deepEqual(media.sort(), ['demo.mp4', 'preview0.png', 'preview1.webp', 'preview2.avif']);
+  const media = validateReadme('![App](preview0.png)\n\n<img src="preview1.png" alt="App">\n\n<video controls src="demo.mp4" poster="preview0.png"></video>', app);
+  assert.deepEqual(media.sort(), ['demo.mp4', 'preview0.png', 'preview1.png']);
   assert.throws(() => validateReadme('<img src="preview0.png" onerror="alert(1)">', app), /README/);
   assert.throws(() => validateReadme('<video controls src="https://evil.test/demo.mp4"></video>', app), /README/);
+});
+test('requires PNG for Markdown images, HTML images, and video posters', () => {
+  for (const extension of ['jpg', 'jpeg', 'webp', 'avif', 'gif', 'svg']) {
+    for (const text of [`![App](image.${extension})`, `<img src="image.${extension}">`, `<video controls src="demo.mp4" poster="image.${extension}"></video>`]) {
+      assert.throws(() => validateReadme(text, app), /README/);
+    }
+  }
 });
 
 test('enforces 10 KB as UTF-8 bytes, including multibyte text', () => {

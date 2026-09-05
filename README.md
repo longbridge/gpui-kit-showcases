@@ -51,7 +51,7 @@ apps/
 | `source` | Public source repository or `null`; at least one of `website` or `source` is required. |
 | `building` | Optional boolean; `true` for apps still in development. |
 | `publishedAt` | ISO 8601 timestamp with timezone for first inclusion in App Stories; confirmed by maintainers. Preserve it for later updates. |
-| `previews` | Nonempty list of local image filenames in display order, such as `preview0.png`. The first is the cover. PNG, JPEG, WebP, and AVIF are supported. |
+| `previews` | Nonempty list of local image filenames in display order, such as `preview0.png`. The first is the cover. Only PNG images are allowed. |
 | `stars`, `starsUpdatedAt` | Automation-owned cached GitHub Stars and the time the count was first recorded or last changed. Do not edit manually. |
 
 Featured apps appear first, following maintainer-managed `featured.json`. Other apps form a separate group with newest-first and GitHub Stars sorting. Search includes names, authors and descriptions. The initial migration uses its archive timestamp as the inclusion date, not the application's original release date.
