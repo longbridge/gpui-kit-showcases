@@ -1,0 +1,20 @@
+{
+  "id": "xvw",
+  "name": "xvw",
+  "author": "funap",
+  "description": "A GPU-accelerated hex and binary editor for reverse engineering: memory-mapped multi-GB files, runtime Kaitai Struct parsing, a 2D visual map, synchronized diffs, a live data inspector, 40+ text encodings and Vim-style keys.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/funap/xvw",
+  "building": true,
+  "publishedAt": "2026-09-08T10:10:59+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png"
+  ]
+}
