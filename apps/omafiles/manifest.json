@@ -1,0 +1,17 @@
+{
+  "id": "omafiles",
+  "name": "Omafiles",
+  "author": "aloisdeniel",
+  "description": "The file explorer Omarchy was missing: keyboard-first and retinted live by your theme, with vertical tabs and workspaces, fuzzy and content search, tree-sitter previews, Git markers and diffs, one-keystroke HTTP serving, and SMB, SFTP and WebDAV mounts.",
+  "category": "system",
+  "platforms": [
+    "Omarchy Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/aloisdeniel/omafiles",
+  "building": true,
+  "publishedAt": "2026-09-08T10:14:21+08:00",
+  "previews": [
+    "preview0.png"
+  ]
+}
