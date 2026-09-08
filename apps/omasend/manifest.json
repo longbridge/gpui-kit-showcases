@@ -1,0 +1,18 @@
+{
+  "id": "omasend",
+  "name": "Omasend",
+  "author": "huacnlee",
+  "description": "Copy, paste, and send to your other devices. A local-network file sharing app for Omarchy that moves files, folders, screenshots and text between devices over an encrypted direct connection, with no account and no cloud upload, and works with LocalSend clients.",
+  "category": "system",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://huacnlee.github.io/omasend/",
+  "source": "https://github.com/huacnlee/omasend",
+  "publishedAt": "2026-09-08T19:22:07+08:00",
+  "previews": [
+    "preview0.png"
+  ]
+}
