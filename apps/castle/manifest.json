@@ -1,0 +1,18 @@
+{
+  "id": "castle",
+  "name": "Castle",
+  "author": "BeratHundurel",
+  "description": "A native notes and kanban app for Windows: Markdown notes with an outline view, boards with cards, labels, checklists and due dates, kept in a local SQLite database, plus an optional local MCP server that lets agents read and write the workspace.",
+  "category": "work",
+  "platforms": [
+    "Windows"
+  ],
+  "website": null,
+  "source": "https://github.com/BeratHundurel/castle",
+  "publishedAt": "2026-09-08T09:59:47+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
