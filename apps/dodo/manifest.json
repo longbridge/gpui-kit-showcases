@@ -1,0 +1,17 @@
+{
+  "id": "dodo",
+  "name": "Dodo",
+  "author": "Dodo",
+  "description": "A native developer toolbox built with GPUI Kit, combining API exploration, container management, databases, diagrams, utilities, and multilingual input tools in one desktop app.",
+  "publishedAt": "2026-09-09T11:16:00Z",
+  "category": "dev",
+  "platforms": ["macOS", "Windows", "Linux"],
+  "website": null,
+  "source": "https://github.com/MrGru/dodo",
+  "building": true,
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
