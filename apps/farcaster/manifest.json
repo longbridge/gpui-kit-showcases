@@ -1,0 +1,18 @@
+{
+  "id": "farcaster",
+  "name": "Farcaster",
+  "author": "behzade",
+  "description": "A native desktop client for coding agents. Run Codex, Pi, OpenCode and Cursor sessions side by side in one keyboard-driven UI, review changes in an embedded terminal and Neovim, and coordinate workers across harnesses through an optional MCP server.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/behzade/farcaster",
+  "building": true,
+  "publishedAt": "2026-09-09T13:49:01+08:00",
+  "previews": [
+    "preview0.png"
+  ]
+}
