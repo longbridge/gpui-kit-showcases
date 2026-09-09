@@ -2,7 +2,7 @@
   "id": "system-pulse",
   "name": "System Pulse",
   "author": "eas4ai",
-  "description": "A native dockable desktop system monitor with Summary, CPU, Memory, GPU, Disks, Network, Energy, Thermals and Processes screens, live charts and segmented meters, process search and actions, named presets, and a tray graph that keeps monitoring while the window is closed.",
+  "description": "A native dockable desktop system monitor with live CPU, memory, GPU, disk, network, energy and thermal charts, a searchable process table, and a tray graph that keeps monitoring while the window is closed.",
   "category": "system",
   "platforms": [
     "macOS",
