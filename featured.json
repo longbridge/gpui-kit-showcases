@@ -1,5 +1,4 @@
 [
-  "omasend",
   "longbridge-pro",
   "openlogi",
   "zedis",
@@ -15,5 +14,6 @@
   "orrery",
   "zenclash",
   "pawse",
-  "tes"
+  "tes",
+  "omasend"
 ]
