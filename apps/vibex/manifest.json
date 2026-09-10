@@ -1,0 +1,13 @@
+{
+  "id": "vibex",
+  "name": "Vibex",
+  "author": "peatboy",
+  "description": "A native, local-first AI coding workbench for Agent-powered software development. Your agents. Your workspace. Your control—from prompt to commit, desktop to mobile. Works with Codex, Claude Code, OpenCode, Pi, Grok, DeepSeek Harness, Antigravity, and many more through ACP.",
+  "category": "dev",
+  "platforms": ["macOS", "Windows", "Linux", "Android", "iOS"],
+  "website": "https://vibex.peatboy.com",
+  "source": "https://github.com/vibex-ai/vibex",
+  "building": true,
+  "publishedAt": "2026-09-10T13:18:54+08:00",
+  "previews": ["preview0.png", "preview1.png"]
+}
