@@ -2,7 +2,7 @@
   "id": "cloudbridge",
   "name": "CloudBridge",
   "author": "JetSquirrel",
-  "description": "A local-first dashboard for cloud and language model costs, bringing AWS, Alibaba Cloud, and DeepSeek spending into a unified view.",
+  "description": "A local-first desktop ledger for cloud and AI model spend. CloudBridge pulls AWS, Alibaba Cloud and DeepSeek billing, imports bill exports from OpenAI, Anthropic and Volcengine, and shows one overview with forecast, alerts, Sankey attribution and a single reporting currency.",
   "category": "work",
   "platforms": [
     "macOS",
