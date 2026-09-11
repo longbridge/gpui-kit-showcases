@@ -1,0 +1,20 @@
+{
+  "id": "wake",
+  "name": "Wake",
+  "author": "iAmCorey",
+  "description": "All your AI coding-agent sessions in one place. Wake gathers Claude Code, Codex, Cursor, OpenCode, Gemini CLI and more into a single native window: browse by agent or project, full-text search with CJK and code support, read transcripts, and resume any session in your terminal.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Linux",
+    "Windows"
+  ],
+  "website": null,
+  "source": "https://github.com/iAmCorey/Wake",
+  "building": true,
+  "publishedAt": "2026-09-11T10:18:25+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png"
+  ]
+}
