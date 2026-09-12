@@ -1,0 +1,20 @@
+{
+  "id": "getcat",
+  "name": "GetCat",
+  "author": "finch-xu",
+  "description": "A Postman-style API debugging tool for macOS, Windows and Linux, built with Rust and GPUI, no Electron or WebView. No account, data stays local as plain JSON. Handles huge responses smoothly, renders SSE and LLM streaming (OpenAI, Anthropic) live, imports and exports cURL.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://getcat.io",
+  "source": "https://github.com/finch-xu/GetCat",
+  "publishedAt": "2026-09-12T10:30:00+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
