@@ -1,0 +1,19 @@
+{
+  "id": "clv3000-plus",
+  "name": "CLV3000 Plus",
+  "author": "Sopaco",
+  "description": "A fast, Rust-powered cleaner for Windows & macOS that reclaims space from AI-agent leftovers — abandoned projects, caches, and dependencies.",
+  "category": "system",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "website": null,
+  "source": "https://github.com/sopaco/CLV3000-Plus",
+  "publishedAt": "2026-09-12T11:30:55+08:00",
+  "stars": 60,
+  "starsUpdatedAt": "2026-09-12T02:49:48.874Z",
+  "previews": [
+    "preview0.png"
+  ]
+}
