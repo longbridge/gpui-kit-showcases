@@ -1,0 +1,18 @@
+{
+  "id": "cellar",
+  "name": "Cellar",
+  "author": "MRL-00",
+  "description": "An open-source desktop database client built with Rust and GPUI. Browse schemas, run SQL, inspect execution plans, edit result grids and review pending changes before they are committed. Private by default with bring-your-own AI provider for SQL generation.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/MRL-00/cellar",
+  "publishedAt": "2026-09-16T12:00:00+08:00",
+  "previews": [
+    "preview0.png"
+  ]
+}
