@@ -1,0 +1,23 @@
+{
+  "id": "railoxide",
+  "name": "RailOxide",
+  "author": "triamazikamno",
+  "description": "A privacy-oriented desktop wallet for RAILGUN private transactions, written in Rust on GPUI. Zero telemetry, built-in Tor, indexed POI artifacts, Ledger and Trezor derived wallets, public broadcaster monitoring, Chainlink on-chain pricing and WalletConnect for DeFi.",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://railoxide.eth.link",
+  "source": "https://github.com/triamazikamno/railoxide",
+  "building": true,
+  "publishedAt": "2026-09-17T12:00:00+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png",
+    "preview3.png",
+    "preview4.png"
+  ]
+}
