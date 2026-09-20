@@ -1,0 +1,19 @@
+{
+  "id": "navop",
+  "name": "Navop",
+  "author": "feigeCode",
+  "description": "A native, all-in-one developer workspace that brings databases, SSH, SFTP, remote desktops, monitoring, notes, and AI agents into one GPU-accelerated desktop app built with Rust and GPUI.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://navop.dev",
+  "source": "https://github.com/feigeCode/navop",
+  "building": true,
+  "publishedAt": "2026-09-20T09:45:09+08:00",
+  "previews": [
+    "preview0.png"
+  ]
+}
