@@ -1,0 +1,19 @@
+{
+  "id": "coco-mcp",
+  "name": "Coco MCP",
+  "author": "camiloazula",
+  "description": "Inspect and debug MCP servers in depth, from the command line or a native window. One Rust binary drawn by GPUI: connect many stdio or HTTP servers, call tools from schema forms or raw JSON, read every wire message, replay history and diff each connect against the last snapshot.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/camiloazula/coco-mcp",
+  "publishedAt": "2026-09-21T12:00:00+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
