@@ -1,0 +1,22 @@
+{
+  "id": "ghostex",
+  "name": "Ghostex",
+  "author": "maddada",
+  "description": "The native desktop app for Claude Code, Codex, OpenCode and every other coding agent. A Rust/GPUI shell with a chat view per agent, embedded Chromium browser, Kanban board, built-in IDE, session search and remote machines, plus a mobile companion.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://ghostex.dev",
+  "source": "https://github.com/maddada/Ghostex",
+  "publishedAt": "2026-09-21T12:00:00+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png",
+    "preview3.png",
+    "preview4.png"
+  ]
+}
