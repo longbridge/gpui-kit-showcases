@@ -1,0 +1,18 @@
+{
+  "id": "probe",
+  "name": "Probe",
+  "author": "crizant",
+  "description": "A fast, native, local-first API client for macOS, Windows and Linux. Built with Rust and GPUI, it stores collections as Git-friendly OpenCollection YAML, ships a matching CLI for scripts, CI and AI agents, and needs no account or cloud service.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://rusty-probe.pages.dev",
+  "source": "https://github.com/crizant/probe",
+  "publishedAt": "2026-09-21T12:00:00+08:00",
+  "previews": [
+    "preview0.png"
+  ]
+}
