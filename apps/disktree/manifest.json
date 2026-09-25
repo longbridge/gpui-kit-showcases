@@ -1,0 +1,17 @@
+{
+  "id": "disktree",
+  "name": "disktree",
+  "author": "tobi",
+  "description": "A treemap for finding and removing what fills your disk, for Omarchy. Directories drawn as a nested mosaic sized by real disk cost and colored by kind of data, with reclaimable space hatched, marks reviewed before anything is trashed or deleted, and free space always in view.",
+  "category": "system",
+  "platforms": [
+    "Omarchy Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/tobi/disktree",
+  "building": true,
+  "publishedAt": "2026-09-25T12:00:00+08:00",
+  "previews": [
+    "preview0.png"
+  ]
+}
