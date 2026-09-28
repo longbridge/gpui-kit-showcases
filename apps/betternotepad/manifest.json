@@ -1,0 +1,18 @@
+{
+  "id": "betternotepad",
+  "name": "Better Notepad",
+  "author": "Sachithra Pushpawela",
+  "description": "A simple, fast plain-text editor for macOS.",
+  "category": "work",
+  "platforms": [
+    "macOS"
+  ],
+  "website": "https://betternotepad.sach.cc",
+  "source": "https://github.com/sachithrrra/betternotepad",
+  "publishedAt": "2026-09-28T11:26:48Z",
+  "stars": null,
+  "starsUpdatedAt": null,
+  "previews": [
+    "preview0.png"
+  ]
+}
