@@ -1,6 +1,6 @@
 # disktree
 
-disktree finds what is filling a disk, lets you mark what should go, and removes it, with the volume's free space in view the whole time. It scans your home directory by default and draws every directory as a nested mosaic sized by what it really costs on disk. Built with GPUI through gpui-omarchy, it follows your Omarchy theme and behaves like the rest of the desktop.
+disktree finds what is filling a disk, lets you mark what should go, and removes it, with the volume's free space in view the whole time. It scans your home directory by default and draws every directory as a nested mosaic sized by what it really costs on disk. Built with GPUI through gpui-omarchy, it follows your Omarchy theme and behaves like the rest of the desktop. The same app runs on macOS and Windows, following the system's light or dark setting there.
 
 ## See what kind of data it is
 
@@ -20,6 +20,10 @@ Marking is reversible and never counted twice. Nothing happens until you open th
 
 ## The whole disk
 
-Widening the scan from home to the whole disk reuses the tree already measured, so only what lies outside it is read. A scan stays on one volume, counts hardlinks once and skips snapshot subvolumes so nothing is counted twice.
+Widening the scan from home to the whole disk reuses the tree already measured, so only what lies outside it is read. A scan stays on one volume, counts hardlinks once and skips snapshot subvolumes so nothing is counted twice. A volume picker lists every mounted disk with its free space, fullest first, to scan another one in a keystroke.
+
+## On macOS and Windows
+
+On macOS, removal goes to the system Trash, cloud-only folders are never downloaded by a scan, and the panel points to Full Disk Access when macOS is hiding data. On Windows, removal goes to the Recycle Bin, and when run as administrator a whole NTFS drive is read straight from the master file table, which is much faster than walking the directories. Each platform keeps its own system folders and user profiles off limits.
 
 [GitHub repository](https://github.com/tobi/disktree)
