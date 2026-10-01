@@ -1,0 +1,20 @@
+{
+  "id": "nearword",
+  "name": "NearWord",
+  "author": "Sergei G.",
+  "description": "Look up words and phrases anywhere on your screen without switching apps. Offline dictionaries, optional AI explanations in context, and local lookup history with Anki, CSV and JSON export.",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://nearword.app/",
+  "source": null,
+  "building": true,
+  "publishedAt": "2026-10-01T03:02:07Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png"
+  ]
+}
