@@ -1,0 +1,18 @@
+{
+  "id": "tusk",
+  "name": "Tusk",
+  "author": "Alpcan Aydın",
+  "description": "A native, keyboard-driven database client built with Rust and GPUI Kit. Connect to SQL and NoSQL databases, edit data, manage schemas, and write queries with an AI assistant that leaves execution in your hands.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/alpcanaydin/tusk",
+  "publishedAt": "2026-10-03T01:18:00Z",
+  "previews": [
+    "preview0.png"
+  ]
+}
