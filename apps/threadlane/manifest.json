@@ -1,0 +1,17 @@
+{
+  "id": "threadlane",
+  "name": "Threadlane",
+  "author": "wheregmis",
+  "description": "A native workspace for AI-assisted software development, built with Rust and GPUI Kit. Organize project conversations, work with coding agents, and use integrated terminals, file tools and Git review panels.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/wheregmis/threadlane",
+  "publishedAt": "2026-10-04T05:09:00Z",
+  "previews": [
+    "preview0.png"
+  ]
+}
