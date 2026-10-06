@@ -21,4 +21,4 @@ a pinned floating copy, or one long stitched page.
 - Copy to clipboard or save via the system dialog; optional tray icon,
   light/dark themes
 
-[Source on GitHub](https://github.com/mengh04/shotori)
+[Source on GitHub](https://github.com/shotori-screenshot/shotori)

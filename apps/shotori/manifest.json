@@ -6,7 +6,7 @@
   "category": "system",
   "platforms": ["Linux"],
   "website": null,
-  "source": "https://github.com/mengh04/shotori",
+  "source": "https://github.com/shotori-screenshot/shotori",
   "building": true,
   "publishedAt": "2026-10-07T00:00:00Z",
   "previews": ["preview0.png"]
