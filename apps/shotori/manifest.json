@@ -2,7 +2,7 @@
   "id": "shotori",
   "name": "Shotori",
   "author": "mengh04",
-  "description": "A Wayland-native screenshot tool — select, annotate, pin, long-capture scrolling pages, and read text with on-device OCR. No cloud, no browser extensions.",
+  "description": "A Wayland-native screenshot tool — select, annotate, pin, long-capture scrolling pages, and read text with on-device OCR.",
   "category": "system",
   "platforms": ["Linux"],
   "website": null,

@@ -1,7 +1,8 @@
 # Shotori
 
 A Wayland-native screenshot tool. Freeze the screen, drag a selection,
-and send it where it needs to go — no cloud, no browser extensions.
+and send it where it needs to go — the clipboard, a file, plain text,
+a pinned floating copy, or one long stitched page.
 
 ![Shotori selecting a region over a wallpaper, with two pinned captures floating beside it](preview0.png)
 
