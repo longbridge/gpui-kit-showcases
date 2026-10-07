@@ -1,0 +1,18 @@
+{
+  "id": "meow-player",
+  "name": "Meow Player",
+  "author": "xarzhi",
+  "description": "A Windows native music player with a simple and elegant interface",
+  "category": "work",
+  "platforms": [
+    "Windows"
+  ],
+  "website": "https://xarzhi.github.io/meow-player-docs/",
+  "source": null,
+  "publishedAt": "2026-09-05T11:30:55+08:00",
+  "stars": null,
+  "starsUpdatedAt": null,
+  "previews": [
+    "preview0.png"
+  ]
+}
