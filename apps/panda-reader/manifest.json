@@ -1,0 +1,19 @@
+{
+  "id": "panda-reader",
+  "name": "Panda Reader",
+  "author": "yuhangch",
+  "description": "A desktop RSS reader built with GPUI. Keep feeds in a local library or sync with Miniflux or FreshRSS. Read offline, extract full articles, translate side by side, and tune typography and themes to your liking.",
+  "category": "work",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "website": "https://yuhangch.github.io/panda-reader/",
+  "source": "https://github.com/yuhangch/panda-reader",
+  "building": true,
+  "previews": [
+    "preview0.png"
+  ],
+  "publishedAt": "2026-10-07T03:40:17Z"
+}
