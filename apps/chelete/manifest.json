@@ -1,0 +1,20 @@
+{
+  "id": "chelete",
+  "name": "Chelete",
+  "author": "phoscoder",
+  "description": "A keyboard-driven personal finance tracker for Linux. Manage accounts, transactions and categories, view balances and spending, and follow your Omarchy desktop theme as it changes.",
+  "category": "work",
+  "platforms": [
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/phoscoder/chelete",
+  "publishedAt": "2026-10-07T07:59:56Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ],
+  "stars": 1,
+  "starsUpdatedAt": "2026-10-07T07:59:56.223Z"
+}

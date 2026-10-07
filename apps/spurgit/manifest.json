@@ -1,0 +1,20 @@
+{
+  "id": "spurgit",
+  "name": "Spur",
+  "author": "press-again",
+  "description": "A native Git client for Windows and macOS that monitors multiple repositories, including WSL checkouts. Browse commit graphs and diffs, stage changes, manage branches and stashes, and resolve conflicts.",
+  "category": "dev",
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "website": "https://spurgit.com",
+  "source": "https://github.com/press-again/SpurGit",
+  "building": true,
+  "publishedAt": "2026-10-07T07:59:56Z",
+  "previews": [
+    "preview0.png"
+  ],
+  "stars": 2,
+  "starsUpdatedAt": "2026-10-07T07:59:56.223Z"
+}
