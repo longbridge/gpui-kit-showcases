@@ -1,0 +1,20 @@
+{
+  "id": "net-assistant",
+  "name": "NetAssistant",
+  "author": "SunJary",
+  "description": "Cross-platform TCP/UDP network debugging tool with client and server modes, IPv4/IPv6, multiple TCP decoders, hex editing with checksums, message favorites and search, reply rules, scheduled sending and a built-in stress test engine with QPS and latency metrics.",
+  "category": "dev",
+  "platforms": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ],
+  "website": "https://netassistant.trydo.top/",
+  "source": "https://github.com/SunJary/NetAssistant",
+  "building": true,
+  "publishedAt": "2026-10-09T20:00:00+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png"
+  ]
+}
