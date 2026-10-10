@@ -1,0 +1,21 @@
+{
+  "id": "shellrs",
+  "name": "ShellRS",
+  "author": "since2006",
+  "description": "A native SSH client in Rust: Xshell-style host management and tabbed terminals, WinSCP-style dual-pane SFTP, port forwarding, sidebar tools for processes, services and Docker, and a CLI that lets AI agents use saved hosts without seeing passwords.",
+  "category": "terminal",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://shellrs.com",
+  "source": "https://github.com/since2006/shell-rs",
+  "publishedAt": "2026-10-11T00:00:00+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png",
+    "preview3.png"
+  ]
+}
