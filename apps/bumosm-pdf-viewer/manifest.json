@@ -1,0 +1,12 @@
+{
+  "id": "bumosm-pdf-viewer",
+  "name": "BuMoSm PDF Viewer",
+  "author": "nabehiro",
+  "description": "A simple PDF viewer for Windows built with Rust and GPUI. Smooth scrolling, tabs, text and regex search, bookmarks, a page editor to extract, delete, insert and combine pages, a print preview screen, invert colors, and custom themes.",
+  "category": "work",
+  "platforms": ["Windows"],
+  "website": null,
+  "source": "https://github.com/BuMoSm-Series/BuMoSmPDFViewer",
+  "publishedAt": "2026-10-09T00:00:00Z",
+  "previews": ["previews0.png", "previews1.png", "previews2.png", "previews3.png", "previews4.png"]
+}
