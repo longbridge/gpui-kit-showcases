@@ -1,0 +1,16 @@
+{
+  "id": "top",
+  "name": "Top",
+  "author": "bshk-app",
+  "description": "A native system monitor for Apple Silicon Macs, with real-time CPU, GPU, memory, disk, and network metrics, a dashboard, menu bar indicators, a floating widget, and a process list.",
+  "category": "system",
+  "platforms": [
+    "macOS"
+  ],
+  "website": null,
+  "source": "https://github.com/bshk-app/top",
+  "publishedAt": "2026-10-13T00:00:00Z",
+  "previews": [
+    "preview0.png"
+  ]
+}

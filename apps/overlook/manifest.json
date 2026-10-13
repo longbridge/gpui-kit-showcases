@@ -1,0 +1,18 @@
+{
+  "id": "overlook",
+  "name": "Overlook",
+  "author": "Last Refuge",
+  "description": "A native Gmail and Google Calendar client for Linux, with an Outlook-inspired workspace, local-first offline mail, a durable Outbox, and Light and Dark themes.",
+  "category": "work",
+  "platforms": [
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/last-refuge/overlook",
+  "building": true,
+  "publishedAt": "2026-10-13T00:00:00Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png"
+  ]
+}
