@@ -1,0 +1,17 @@
+{
+  "id": "glim",
+  "name": "Glim",
+  "author": "NeoPanic",
+  "description": "A free, open-source file viewer for macOS. Read Markdown, PDFs, images, JSON, CSV and source code in one workspace. Built with Rust and GPUI Kit.",
+  "category": "work",
+  "platforms": [
+    "macOS"
+  ],
+  "website": null,
+  "source": "https://github.com/NeoPanic/Glim",
+  "building": true,
+  "publishedAt": "2026-10-16T05:59:17.071911+00:00",
+  "previews": [
+    "preview0.png"
+  ]
+}
