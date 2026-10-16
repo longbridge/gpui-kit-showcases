@@ -1,0 +1,13 @@
+{
+  "id": "dbcat",
+  "name": "DbCat",
+  "author": "forzen",
+  "description": "A fast, native macOS database client written in Rust. Browse, query and edit MySQL, MariaDB, PostgreSQL, SQLite, ClickHouse, Redis and MongoDB in one app, with paginated grids, a smart SQL editor, structure editing and import/export.",
+  "category": "dev",
+  "platforms": ["macOS"],
+  "website": "https://dbcat.forzens.com",
+  "source": null,
+  "building": true,
+  "publishedAt": "2026-10-16T00:00:00+08:00",
+  "previews": ["preview0.png", "preview1.png"]
+}
