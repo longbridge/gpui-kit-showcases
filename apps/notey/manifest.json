@@ -1,0 +1,18 @@
+{
+  "id": "notey",
+  "name": "Notey",
+  "author": "Kronz",
+  "description": "A simple, fast plain-text editor for macOS with tabs, session restore, live Markdown preview, PDF/DOCX export, find and replace, and light/dark theming.",
+  "category": "work",
+  "platforms": [
+    "macOS"
+  ],
+  "website": "https://notey.kronz.xyz",
+  "source": "https://github.com/kronzhq/notey",
+  "publishedAt": "2026-09-28T11:26:48Z",
+  "stars": 6,
+  "starsUpdatedAt": "2026-10-11T04:14:58.483Z",
+  "previews": [
+    "preview0.png"
+  ]
+}
