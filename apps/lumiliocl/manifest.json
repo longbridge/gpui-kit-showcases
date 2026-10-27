@@ -1,0 +1,21 @@
+{
+  "id": "lumiliocl",
+  "name": "LumilioCL",
+  "author": "EdwinZhanCN",
+  "description": "A native Minecraft launcher with no Electron or WebView. Create Vanilla, Fabric and Quilt games, import modpacks, install mods from Modrinth and CurseForge, let it manage Java, map worlds from saves or seeds, and preview Litematica schematics in 3D.",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://launcher.lumilio.org/",
+  "source": "https://github.com/EdwinZhanCN/LumilioCL",
+  "publishedAt": "2026-10-26T23:26:03Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png",
+    "preview3.png"
+  ]
+}
