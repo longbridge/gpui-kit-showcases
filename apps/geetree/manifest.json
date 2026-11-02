@@ -1,0 +1,20 @@
+{
+  "id": "geetree",
+  "name": "GeeTree",
+  "author": "cmzy",
+  "description": "A native Git client for very large repositories, written in Rust. 1.5 million commits open in half a second; a search over every one of them answers in a fraction of a second. Side-by-side diffs with hunk staging, a three-way merge editor, worktrees and multi-repository tabs.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://geetree.app",
+  "source": "https://github.com/cmzy/geetree",
+  "publishedAt": "2026-11-02T23:12:13Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
