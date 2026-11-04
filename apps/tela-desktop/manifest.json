@@ -1,0 +1,20 @@
+{
+  "id": "tela-desktop",
+  "name": "Tela Desktop",
+  "author": "zhuangbiaowei",
+  "description": "A local-first desktop reader for the Tela independent blog community. Read subscriptions offline, compare the original and translation side by side, bookmark any web page as Markdown, and switch between customizable themes.",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/zhuangbiaowei/telaread-desktop",
+  "publishedAt": "2026-11-04T00:00:00Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
