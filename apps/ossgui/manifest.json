@@ -1,0 +1,21 @@
+{
+  "id": "ossgui",
+  "name": "Ossgui",
+  "author": "Yuan YQ",
+  "description": "A cross-platform Aliyun OSS desktop client built with Rust and GPUI: browse buckets and objects, upload, download and delete files, preview images, and manage multiple accounts with credentials kept in the OS keychain.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/yuqiang-yuan/ossgui",
+  "building": true,
+  "publishedAt": "2026-11-06T18:52:12+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
