@@ -1,0 +1,22 @@
+{
+  "id": "hymnbook",
+  "name": "Hymn Book",
+  "author": "ugochukwu-850",
+  "description": "A desktop hymn book for the Faith Tabernacle community: read all 1,000 hymns and hear each tune played as it is sung, with a verse-and-chorus song map, per-voice SATB control and lyrics that follow along.",
+  "category": "work",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": "https://hymnbook-two.vercel.app",
+  "source": "https://github.com/ugochukwu-850/hymnbook",
+  "publishedAt": "2026-11-10T14:29:33Z",
+  "stars": null,
+  "starsUpdatedAt": null,
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
