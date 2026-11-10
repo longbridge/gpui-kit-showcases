@@ -1,0 +1,20 @@
+{
+  "id": "rind",
+  "name": "Rind",
+  "author": "ahjdzx",
+  "description": "An explainable, undoable macOS uninstaller and cleaner. Remove apps with their leftovers, find orphaned files, clean caches, and inspect disk space, with a reason and confidence for every file and everything moved to the Trash.",
+  "category": "system",
+  "platforms": [
+    "macOS"
+  ],
+  "website": null,
+  "source": "https://github.com/ahjdzx/rind",
+  "building": false,
+  "publishedAt": "2026-11-10T07:00:00Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png"
+  ],
+  "stars": 11,
+  "starsUpdatedAt": "2026-11-10T07:00:00.000Z"
+}
