@@ -1,0 +1,13 @@
+{
+  "id": "ferail",
+  "name": "Ferail",
+  "author": "John Knipper",
+  "description": "A file manager whose UI never blocks: no work runs on the UI thread, and Flat View lists a whole disk, over 5 million files, in one view. Split view, disk usage treemap, duplicate finder, bulk rename, archives, media viewer. macOS, Windows, Linux; AROS port in progress.",
+  "category": "system",
+  "platforms": ["macOS", "Windows", "Linux"],
+  "website": null,
+  "source": "https://github.com/jonx/Ferail",
+  "building": true,
+  "publishedAt": "2026-11-11T00:00:00Z",
+  "previews": ["preview0.png", "preview1.png", "preview2.png"]
+}
