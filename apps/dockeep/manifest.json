@@ -1,0 +1,13 @@
+{
+  "id": "dockeep",
+  "name": "Dockeep",
+  "author": "hazyio",
+  "description": "Cross-platform desktop app that captures screenshots of Chrome and Chromium pages over CDP. Choose desktop or mobile viewport or a region selector, organize captures into projects, embed source URLs, and auto-commit to Git. Built with GPUI Kit.",
+  "category": "dev",
+  "platforms": ["macOS", "Windows", "Linux"],
+  "website": null,
+  "source": "https://github.com/hazyio/dockeep",
+  "building": true,
+  "publishedAt": "2026-11-12T00:00:00Z",
+  "previews": ["preview0.png", "preview1.png", "preview2.png"]
+}
