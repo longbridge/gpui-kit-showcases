@@ -1,0 +1,23 @@
+{
+  "id": "xrose",
+  "name": "Xrose",
+  "author": "zuoxinyu",
+  "description": "Cross-platform desktop client for sing-box and Xray with built-in EasyTier and Tailscale mesh networking, built in Rust with GPUI Kit. Features native vibrancy and Mica materials, a direct mode with live traffic and process monitoring, routing rules, DNS, and diagnostics.",
+  "category": "system",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/zuoxinyu/xrose",
+  "building": true,
+  "publishedAt": "2026-11-16T15:45:00Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png",
+    "preview3.png",
+    "preview4.png"
+  ]
+}
