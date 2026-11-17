@@ -1,0 +1,18 @@
+{
+  "id": "reminder",
+  "name": "Reminder",
+  "author": "w3cub",
+  "description": "A native macOS reminder app with a desktop pet that walks over when something is due. Repeating reminders, smart lists, Markdown notes with inline reminders, statistics, achievements, and optional GitHub sync to your own private repository.",
+  "category": "work",
+  "platforms": [
+    "macOS"
+  ],
+  "website": "https://reminder.w3cub.com/",
+  "source": "https://github.com/petreminder/reminder",
+  "publishedAt": "2026-11-17T18:00:00+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
