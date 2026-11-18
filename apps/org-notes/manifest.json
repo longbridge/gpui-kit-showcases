@@ -1,9 +1,9 @@
 {
   "id": "org-notes",
-  "name": "Org-notes",
+  "name": "org-notes",
   "author": "Liang Chen",
   "description": "A macOS notes that grows with you built with Rust and GPUI-kit",
-  "category": "productivity",
+  "category": "work",
   "platforms": ["macos"],
   "website": "https://org-notes-mac.netlify.app",
   "source": null,
