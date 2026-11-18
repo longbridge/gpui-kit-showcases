@@ -4,7 +4,7 @@
   "author": "Liang Chen",
   "description": "A macOS notes that grows with you built with Rust and GPUI-kit",
   "category": "productivity",
-  "platforms": ("macos"),
+  "platforms": ["macos"],
   "website": "https://org-notes-mac.netlify.app",
   "source": null,
   "publishedAt": "2026-11-18T00:00:00Z",
