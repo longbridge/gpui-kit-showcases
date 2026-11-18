@@ -1,0 +1,17 @@
+{
+  "id": "s3-browser",
+  "name": "S3 Browser",
+  "author": "zf0x00",
+  "description": "A native macOS file manager for Amazon S3, Cloudflare R2, MinIO, Backblaze B2 and other S3-compatible storage. Grid, list and media views with thumbnails, Quick Look, folder sizes, and an ETag-checked local cache so you never pay egress twice for the same file.",
+  "category": "dev",
+  "platforms": [
+    "macOS"
+  ],
+  "website": null,
+  "source": "https://github.com/zf0x00/s3-browser",
+  "publishedAt": "2026-11-18T00:00:00Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png"
+  ]
+}
