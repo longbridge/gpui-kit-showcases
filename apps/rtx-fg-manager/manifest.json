@@ -1,0 +1,12 @@
+{
+  "id": "rtx-fg-manager",
+  "name": "RTX-FG-Manager",
+  "author": "小南瓜 (pandaligx)",
+  "description": "Manage frame generation mods and DLSS/XeSS runtimes per game. Compare player presets and restore original files when you remove a mod. The experimental Linux edition works with Windows games under Wine or Proton.",
+  "category": "system",
+  "platforms": ["Windows", "Linux"],
+  "website": null,
+  "source": "https://github.com/pandaligx/RTX-FG-Manager",
+  "publishedAt": "2026-11-20T00:00:00Z",
+  "previews": ["preview0.png"]
+}
