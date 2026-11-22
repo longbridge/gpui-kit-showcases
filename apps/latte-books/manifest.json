@@ -1,0 +1,13 @@
+{
+  "id": "latte-books",
+  "name": "Latte Books",
+  "author": "BloomSynth",
+  "description": "Fast, free, open-source desktop accounting: invoices, payments, inventory, point of sale, India GST and reports. Each company is a single file you own, and an MCP server lets AI assistants such as Claude work in your books.",
+  "category": "work",
+  "platforms": ["Windows", "macOS", "Linux"],
+  "website": "https://bloomsynth.com/latte-books/",
+  "source": "https://github.com/bloomsynth/latte-books",
+  "building": true,
+  "publishedAt": "2026-11-22T00:00:00Z",
+  "previews": ["preview0.png", "preview1.png", "preview2.png"]
+}
