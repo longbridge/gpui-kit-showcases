@@ -1,0 +1,13 @@
+{
+  "id": "winssh-pro",
+  "name": "WinSSH Pro",
+  "author": "lantongxue",
+  "description": "A native cross-platform SSH workbench in Rust + GPUI targeting 120fps: SSH, SFTP, Telnet, serial, VNC, RDP, FTP, WebDAV and S3 in one window, with port forwarding, a credential vault, live monitoring, Docker/Swarm management, EasyTier networking and an AI assistant.",
+  "category": "terminal",
+  "platforms": ["macOS", "Windows", "Linux"],
+  "website": "https://winssh.net",
+  "source": "https://github.com/lantongxue/winssh-pro",
+  "building": true,
+  "publishedAt": "2026-11-23T00:00:00Z",
+  "previews": ["preview0.png", "preview1.png", "preview2.png"]
+}
