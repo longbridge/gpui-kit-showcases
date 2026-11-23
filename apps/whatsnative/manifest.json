@@ -1,0 +1,12 @@
+{
+  "id": "whatsnative",
+  "name": "WhatsNative",
+  "author": "DuckB1t",
+  "description": "An unofficial native WhatsApp client for Linux, macOS and Windows, written in Rust with GPUI and GPUI Kit: no Electron and no WebView, with one background daemon holding the session, keys and history.",
+  "category": "work",
+  "platforms": ["macOS", "Windows", "Linux"],
+  "website": "https://github.com/DuckB1t/whatsnative",
+  "source": "https://github.com/DuckB1t/whatsnative",
+  "publishedAt": "2026-11-23T00:00:00Z",
+  "previews": ["preview0.png", "preview1.png", "preview2.png"]
+}
