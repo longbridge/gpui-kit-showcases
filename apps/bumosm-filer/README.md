@@ -33,10 +33,10 @@ BuMoSm stands for Buttery Motion Smooth: scrolling in the tree, the file list, s
 - Compress and extract Zip, 7z, tar.gz, tar.bz2, gz and bz2. Zip and 7z can have an AES-256 password, and several jobs can run at once with a progress card for each
 - Split a file into parts and join files back together
 
-## Bookmarks and PowerShell
+## Bookmarks and shell panel
 
 - Bookmarks (Ctrl+B) can be put into groups up to three levels deep, with your own icons, and used from the keyboard
-- A PowerShell panel at the bottom of the window (Ctrl+`). Choose which PowerShell to use, such as PowerShell 7 or Windows PowerShell 5.1
+- A shell panel at the bottom of the window (Ctrl+`) for running PowerShell. You choose which installed version to use
 
 ## Light and quick
 
@@ -57,7 +57,7 @@ BuMoSm stands for Buttery Motion Smooth: scrolling in the tree, the file list, s
 
 - Windows 10 or later
 - No additional runtime or GPU required
-- PowerShell is needed only for the PowerShell panel
+- A shell is needed only for the shell panel (PowerShell)
 
 ## Installation
 
