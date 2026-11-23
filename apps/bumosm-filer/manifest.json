@@ -1,0 +1,12 @@
+{
+  "id": "bumosm-filer",
+  "name": "BuMoSm Filer",
+  "author": "nabehiro",
+  "description": "A file manager for Windows built with Rust and GPUI. Tabs and split panes, a divided view, search inside files and archives, bookmarks, a PowerShell panel, compress and extract, batch rename, and custom themes.",
+  "category": "system",
+  "platforms": ["Windows"],
+  "website": null,
+  "source": "https://github.com/BuMoSm-Series/BuMoSmFiler",
+  "publishedAt": "2026-11-23T00:00:00Z",
+  "previews": ["preview0.png", "preview1.png", "preview2.png", "preview3.png", "preview4.png"]
+}
