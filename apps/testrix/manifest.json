@@ -1,0 +1,13 @@
+{
+  "id": "testrix",
+  "name": "Testrix",
+  "author": "antipro",
+  "description": "A native desktop API client and YAML-backed request workbench with built-in Git history, bidirectional sync, OpenAPI/Postman/Apifox import, QuickJS post-scripts, and API docs sharing.",
+  "category": "dev",
+  "platforms": ["macOS", "Windows", "Linux"],
+  "website": null,
+  "source": "https://github.com/antipro/Testrix",
+  "building": false,
+  "publishedAt": "2026-11-23T00:00:00Z",
+  "previews": ["preview0.png"]
+}
