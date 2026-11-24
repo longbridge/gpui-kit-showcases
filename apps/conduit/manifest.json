@@ -1,0 +1,19 @@
+{
+  "id": "conduit",
+  "name": "Conduit",
+  "author": "Leo-Lee-j",
+  "description": "A native Windows workspace for Claude Code, Codex, OpenCode, and Qoder CLI, with conversations, file previews, Git review, and an integrated terminal.",
+  "category": "dev",
+  "platforms": [
+    "Windows"
+  ],
+  "website": "https://leo-lee-j.github.io/conduit/",
+  "source": "https://github.com/Leo-Lee-j/conduit",
+  "building": true,
+  "publishedAt": "2026-11-24T02:57:41Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
