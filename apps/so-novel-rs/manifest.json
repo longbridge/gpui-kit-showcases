@@ -1,0 +1,21 @@
+{
+  "id": "so-novel-rs",
+  "name": "So Novel",
+  "author": "AhJxs",
+  "description": "A native desktop reader and library for web novels, built with GPUI: search many book sources at once, download chapters concurrently, track covers and reading progress, read TXT/EPUB in-app, and export to EPUB, TXT, HTML, or PDF.",
+  "category": "work",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/AhJxs/so-novel-rs",
+  "building": true,
+  "publishedAt": "2026-11-25T00:00:00+08:00",
+  "previews": [
+    "preview0.png",
+    "preview1.png",
+    "preview2.png"
+  ]
+}
