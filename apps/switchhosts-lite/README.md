@@ -1,27 +1,35 @@
 # SwitchHosts Lite
 
-SwitchHosts Lite is a lightweight take on SwitchHosts: a native desktop app for managing and switching the system hosts file. It is written in Rust with GPUI Kit and ships as a single executable for macOS, Windows and Linux, with no Electron or WebView. It keeps the core SwitchHosts workflow of splitting hosts rules into entries, switching them on and off, and writing the result to the system hosts file.
+SwitchHosts Lite is a lightweight native hosts switcher for macOS and Windows, written in Rust with GPUI Kit. It keeps the familiar SwitchHosts workflow of organizing hosts rules into entries and switching them on or off, while adding remote subscriptions and isolated browser profiles. The app ships as a single executable with no Electron or WebView layer.
 
-![Hosts entries, the editor and the info panel](preview0.png)
+![Hosts entries and the editor](preview0.png)
 
 ## Entries
 
-Rules are organized as three kinds of entries. A local entry is a piece of hosts text edited in place. A folder can be nested and has a choice mode: multiple, single (only one child enabled at a time), or the default that follows the top-level setting. A group references local entries and combines their content in the chosen order. Entries, folders and groups can be reordered and regrouped by drag and drop, as in SwitchHosts.
+Rules can be organized as local entries, remote subscriptions, folders or groups. Local entries are edited in place with syntax highlighting. Remote entries fetch hosts content from an HTTP or HTTPS URL manually or on a schedule. Folders can be nested and use single, multiple or inherited choice modes. Groups combine several entries in a chosen order, and entries can be reordered or regrouped by dragging.
 
-## Switching and applying
+## Automatic hosts management
 
-Turning an entry on or off writes the system hosts file right away, asking for an administrator password, UAC or polkit authorization only when the current user cannot write the file. If writing fails, the switch reverts. While a local entry is edited, its content is applied about a second after typing stops whenever no password is needed; otherwise the status bar shows that changes are unapplied.
+Turning an entry on or off writes the system hosts file immediately. Editing a local entry also applies changes automatically after a short pause, and failed writes restore the previous switch state. macOS requests an administrator password when needed and caches authorization for the current app run; Windows uses UAC when the hosts file requires elevation.
 
-The app only maintains its own marked block at the end of the hosts file, so lines written by hand or by other tools stay untouched. The first row of the list is a read-only view of the current system hosts, re-read when the window regains focus.
+The app only maintains its own marked block at the end of the hosts file, leaving all other content untouched. A read-only system hosts view is refreshed when the window regains focus if another program has changed the file.
+
+## Browser profiles
+
+Browser profiles apply hosts rules only to a launched Chrome or Edge process, without modifying the system hosts file or requiring administrator access. Each profile has independent switches and can launch a dedicated profile, a temporary incognito session or the everyday browser profile. Profiles support custom names, colors and icons, and their identity can sync between the app and the browser.
+
+![Browser profiles with independent hosts switches](preview1.png)
+
+## Tray and startup
+
+Closing the window hides SwitchHosts Lite to the menu bar or notification area instead of quitting. A single-instance guard wakes the existing window when the app is launched again. Optional launch-at-login registration can start the app directly in the tray.
 
 ## History, trash and backups
 
-Every write that changes the system hosts records the content before and after it, and any version can be viewed or restored. Deleted entries go to the trash first and can be restored to their original folder. SwitchHosts v3, v4 and v5 backups can be imported, and data can be exported in a format that SwitchHosts v4 and v5 import.
+System hosts writes and browser profile changes are recorded in a reversible history. Deleted entries and browser profiles go to a trashcan first and can be restored. SwitchHosts v3, v4 and v5 backups can be imported, and data can be exported in the v4 format; browser profiles are included in the app's own backups.
 
-## Editing
+## Editing and appearance
 
-The editor highlights comments, IP addresses and lines whose first field is not a valid IP address. Shortcuts toggle comments and move, duplicate or delete lines.
+The editor includes shortcuts for commenting, moving, duplicating and deleting lines. The interface follows the system light or dark appearance, includes 36 bundled color themes plus custom theme files, and is available in English, Simplified Chinese and Traditional Chinese. Updates are checked on GitHub Releases and verified before installation.
 
-## Look and language
-
-The interface follows the system light or dark mode, with 36 bundled color themes chosen separately for each mode, plus custom theme files. It is available in English, Simplified Chinese and Traditional Chinese, following the system language by default. Updates are checked on GitHub Releases, verified and installed in place.
+The project is open source at https://github.com/jarven97/SwitchHostsLite.

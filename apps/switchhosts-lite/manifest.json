@@ -1,19 +1,19 @@
 {
   "id": "switchhosts-lite",
   "name": "SwitchHosts Lite",
-  "author": "gjfei",
-  "description": "A lightweight native hosts switcher modeled on SwitchHosts. Split hosts rules into local entries, folders and groups, switch them on and off to write the system hosts file, and import SwitchHosts backups. One Rust binary, in English, Simplified and Traditional Chinese.",
+  "author": "jarven",
+  "description": "A lightweight native hosts switcher for macOS and Windows with local, remote, folder and grouped entries, automatic system hosts updates, browser profiles, history, trash and SwitchHosts backup import/export.",
   "category": "dev",
   "platforms": [
     "macOS",
-    "Windows",
-    "Linux"
+    "Windows"
   ],
   "website": null,
-  "source": "https://github.com/gjfei/SwitchHostsLite",
+  "source": "https://github.com/jarven97/SwitchHostsLite",
   "publishedAt": "2026-11-07T00:00:00Z",
   "previews": [
-    "preview0.png"
+    "preview0.png",
+    "preview1.png"
   ],
   "stars": 14,
   "starsUpdatedAt": "2026-11-21T04:45:55.515Z"
